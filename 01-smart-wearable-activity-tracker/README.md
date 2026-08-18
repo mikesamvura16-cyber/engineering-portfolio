@@ -65,9 +65,6 @@ A Product Design Specification (PDS) was developed to translate user needs into 
 - Maintain a low prototype manufacturing cost.
 - Prioritise affordability without compromising essential functionality and reliability.
 
-### Design Objectives
-
-The final design was required to balance thermal performance, environmental protection, comfort, manufacturability, durability, and cost while maintaining reliable step-tracking functionality.
 
 ---
 
