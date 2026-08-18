@@ -244,7 +244,65 @@ The project was treated as a multi-objective optimisation problem in which therm
 
 ## Concept Development
 
-[To be completed]
+Several design concepts were generated to investigate different approaches for integrating sensing electronics, power storage, environmental protection, and user comfort within a compact wearable device.
+
+The concept-generation stage focused on balancing functionality with manufacturability while satisfying the project objectives and engineering constraints.
+
+### Concept 1: Fully Sealed Enclosure
+
+This concept prioritised environmental protection through the use of a fully enclosed housing with minimal external openings.
+
+Advantages:
+
+- Improved resistance to moisture ingress.
+- Simple external appearance.
+- Reduced contamination risk.
+
+Disadvantages:
+
+- Limited natural heat dissipation.
+- Potential increase in enclosure temperature.
+- More challenging maintenance and access.
+
+### Concept 2: Ventilated Enclosure
+
+This concept introduced ventilation features to improve thermal performance.
+
+Advantages:
+
+- Improved heat dissipation.
+- Reduced internal temperature build-up.
+- Potential improvement in electronic reliability.
+
+Disadvantages:
+
+- Increased risk of water ingress.
+- Reduced environmental protection.
+- More complex sealing requirements.
+
+### Concept 3: Hybrid Approach
+
+The final concept combined controlled ventilation, environmental protection features, and a modular enclosure architecture.
+
+Advantages:
+
+- Balanced thermal performance and environmental resistance.
+- Improved manufacturability using FDM processes.
+- Simplified assembly and maintenance.
+- Better accommodation of internal components.
+
+Disadvantages:
+
+- Increased design complexity.
+- Required careful optimisation of competing requirements.
+
+### Concept Selection
+
+The hybrid concept was selected for further development because it provided the most balanced solution to the project's competing objectives.
+
+Unlike concepts that focused exclusively on either cooling performance or environmental protection, the hybrid concept offered a practical compromise between thermal management, water resistance, manufacturability, user comfort, and cost.
+
+The selected concept formed the basis for subsequent material-selection activities, CAD development, engineering analysis, and design validation.
 
 ---
 
