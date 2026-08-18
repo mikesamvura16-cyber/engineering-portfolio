@@ -116,6 +116,40 @@ Several design parameters remained adjustable throughout the development process
 These free variables were adjusted throughout development to achieve the project objectives while satisfying thermal, environmental, manufacturing, and structural constraints.
 
 ---
+## Design Variables and Fixed Parameters
+
+To support systematic engineering decision-making, project parameters were separated into fixed parameters and adjustable design variables.
+
+### Fixed Parameters
+
+The following parameters were considered fixed throughout development:
+
+- Wearable activity-tracking functionality.
+- Intended operating environment.
+- Daily-use operating conditions.
+- User comfort requirements.
+- Budget limitations.
+- FDM manufacturing requirement.
+- Target level of environmental protection.
+
+These requirements could not be changed and therefore formed the basis of the design process.
+
+### Adjustable Design Variables
+
+The following variables could be modified throughout design development:
+
+- Material selection.
+- Wall thickness.
+- Enclosure geometry.
+- Component arrangement.
+- Ventilation strategy.
+- Sealing strategy.
+- Strap configuration.
+- Manufacturing settings.
+
+These variables were adjusted iteratively to satisfy project objectives while remaining within engineering constraints.
+
+---
 
 ## Constraints
 
