@@ -73,7 +73,66 @@ The final design was required to balance thermal performance, environmental prot
 
 ## Constraints
 
-[To be completed]
+The project was governed by several competing engineering constraints that influenced design decisions throughout the development process.
+
+### Thermal Management Constraint
+
+Electronic components and battery systems generate heat during operation and charging. Excessive enclosure temperatures can reduce user comfort, negatively affect component reliability, and shorten battery life.
+
+The challenge was that effective cooling typically requires increased airflow, while environmental protection requires restricting airflow pathways.
+
+### Water Resistance Constraint
+
+The device was intended for everyday use where exposure to sweat, light rain, and accidental splashes could occur.
+
+Achieving water resistance was particularly challenging because FDM-manufactured parts are susceptible to moisture ingress through layer interfaces, assembly gaps, and enclosure joints.
+
+### Manufacturability Constraint
+
+The design was required to be compatible with desktop FDM additive manufacturing processes.
+
+This introduced limitations related to:
+
+- Layer orientation
+- Material anisotropy
+- Minimum feature sizes
+- Print tolerances
+- Support material requirements
+
+The final design therefore had to balance performance with practical manufacturability.
+
+### User Comfort Constraint
+
+The device was intended to be worn for extended periods.
+
+Excessive mass, poor weight distribution, rigid interfaces, or bulky geometry would reduce usability and user acceptance.
+
+Comfort therefore became a primary design consideration rather than an afterthought.
+
+### Cost Constraint
+
+The project aimed to demonstrate that a functional wearable product could be developed using accessible components and manufacturing methods.
+
+Material selection, enclosure complexity, manufacturing time, and component choice were all influenced by cost considerations.
+
+### Structural Integrity Constraint
+
+The enclosure and wearable components were required to withstand routine handling, repeated use, and minor accidental impacts without failure.
+
+This requirement influenced material selection, wall thickness, geometry design, and connection mechanisms.
+
+### Requirement Trade-Offs
+
+The most significant engineering challenge was that many requirements directly conflicted with one another.
+
+For example:
+
+- Improved cooling reduced environmental protection.
+- Increased structural strength generally increased mass.
+- Larger batteries improved operating life but increased size and weight.
+- Additional sealing features improved water resistance but increased manufacturing complexity.
+
+As a result, the final design was developed through a series of engineering trade-offs rather than optimisation of a single performance metric.
 
 ---
 
