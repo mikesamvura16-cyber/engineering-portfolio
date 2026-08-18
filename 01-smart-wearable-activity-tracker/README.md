@@ -306,48 +306,748 @@ The selected concept formed the basis for subsequent material-selection activiti
 
 ---
 
-## Material Selection
+## Material Selection Methodology
 
-[To be completed]
+Material selection was treated as a structured engineering decision-making process rather than a simple comparison of material properties.
+
+The objective was to identify materials capable of satisfying mechanical, thermal, environmental, manufacturing, ergonomic, and cost requirements simultaneously.
+
+The selection process followed four stages:
+
+1. Translation
+2. Screening
+3. Ranking
+4. Validation
+
+### Translation
+
+Project requirements were translated into engineering requirements for both rigid and flexible components.
+
+#### Enclosure Requirements
+
+- Low mass.
+- Adequate structural stiffness.
+- Impact resistance.
+- Moisture resistance.
+- Thermal stability.
+- Compatibility with FDM manufacturing.
+- Low manufacturing cost.
+
+#### Wearable Component Requirements
+
+- Flexibility.
+- User comfort.
+- Fatigue resistance.
+- Repeated deformation capability.
+- Long-term durability.
+
+At this stage no material was selected. The focus was on defining measurable engineering requirements derived from project objectives and constraints.
+
+### Screening
+
+Candidate materials were screened against mandatory requirements.
+
+#### Structural Material Candidates
+
+- PLA
+- PETG
+- ABS
+
+#### Flexible Material Candidates
+
+- TPU
+- Flexible PLA
+- Alternative elastomeric materials
+
+Materials unable to satisfy manufacturing, environmental, thermal, or durability requirements were eliminated from further consideration.
+
+### Ranking
+
+The remaining candidate materials were evaluated using engineering performance criteria.
+
+Evaluation factors included:
+
+- Strength-to-weight performance.
+- Manufacturing compatibility.
+- Thermal performance.
+- Environmental resistance.
+- Durability.
+- Cost.
+- Material availability.
+
+Because the project involved multiple competing objectives, no single material property was used as the sole decision criterion.
+
+Instead, materials were evaluated according to their overall ability to satisfy project requirements simultaneously.
+
+### Validation
+
+Final candidate materials were assessed against practical engineering considerations.
+
+Validation criteria included:
+
+- Print quality.
+- Manufacturing reliability.
+- Assembly practicality.
+- Environmental performance.
+- Structural requirements.
+- Cost effectiveness.
+
+The selected materials were only accepted after demonstrating compatibility with the overall design objectives and project constraints.
+
+### Candidate Material Evaluation
+
+Following screening, the most viable candidate materials for the enclosure were PLA, ABS, and PETG.
+
+These materials were evaluated against the principal project requirements of thermal stability, environmental resistance, manufacturability, structural performance, and cost.
+
+#### PLA
+
+Advantages:
+
+- Excellent printability.
+- Low warping tendency.
+- Good dimensional accuracy.
+- Low material cost.
+
+Limitations:
+
+- Relatively low thermal resistance.
+- Reduced durability in elevated-temperature environments.
+- Increased risk of deformation if exposed to heat during operation or storage.
+
+Assessment:
+
+Although PLA offered excellent manufacturing characteristics, its thermal limitations reduced its suitability for a wearable electronic enclosure.
+
+---
+
+#### ABS
+
+Advantages:
+
+- Good mechanical performance.
+- Improved thermal resistance compared with PLA.
+- Widely used in commercial consumer products.
+
+Limitations:
+
+- Increased warping during manufacturing.
+- More demanding print conditions.
+- Greater manufacturing complexity when compared with PLA and PETG.
+
+Assessment:
+
+ABS remained a technically viable candidate but introduced manufacturing challenges within the available FDM production environment.
+
+---
+
+#### PETG
+
+Advantages:
+
+- Good balance between strength and toughness.
+- Improved thermal resistance compared with PLA.
+- Good environmental durability.
+- Reduced warping compared with ABS.
+- Reliable FDM manufacturing performance.
+
+Limitations:
+
+- Slightly lower stiffness than some alternative materials.
+- Greater tendency for stringing during printing.
+
+Assessment:
+
+PETG provided the most balanced combination of thermal stability, manufacturability, durability, environmental resistance, and cost.
+
+---
+
+#### Flexible Components
+
+For wearable interfaces and flexible elements, TPU was evaluated as the preferred candidate material.
+
+Advantages:
+
+- High flexibility.
+- Good fatigue resistance.
+- Improved user comfort.
+- Ability to tolerate repeated deformation.
+
+Assessment:
+
+TPU offered significant advantages for wearable applications where comfort and flexibility were critical design requirements.
+
+---
+
+### Material Selection Outcome
+
+The final design adopted a hybrid-material strategy consisting of:
+
+- PETG for structural enclosure components.
+- TPU for flexible wearable interfaces.
+
+This material combination provided an effective compromise between thermal performance, durability, environmental resistance, user comfort, manufacturability, and overall project cost while remaining compatible with desktop FDM additive manufacturing.
 
 ---
 
 ## Thermal Management Strategy
 
-[To be completed]
+Thermal management was identified as one of the most critical engineering challenges within the project. Although wearable activity trackers typically operate at relatively low power levels, heat generated by electronic components and battery systems can affect user comfort, component reliability, and overall product performance.
+
+### Thermal Design Objective
+
+The primary thermal objective was to maintain acceptable operating temperatures while preserving environmental protection, manufacturability, and user comfort.
+
+The design therefore sought to:
+
+- Limit heat accumulation within the enclosure.
+- Prevent excessive surface temperatures.
+- Protect sensitive electronic components.
+- Maintain wearer comfort during normal operation.
+- Avoid solutions that significantly increased manufacturing complexity.
+
+### Thermal Challenges
+
+Several factors contributed to the thermal-management challenge:
+
+- Compact enclosure volume.
+- Limited natural airflow.
+- Heat generation from electronic components.
+- Heat generation during charging.
+- Requirement for environmental protection.
+- Manufacturing limitations imposed by FDM processes.
+
+These constraints meant that conventional ventilation solutions could not be adopted without introducing additional risks related to moisture ingress.
+
+### Design Approach
+
+A passive thermal-management strategy was selected.
+
+This approach focused on:
+
+- Promoting natural heat dissipation through enclosure surfaces.
+- Minimising internal heat concentration.
+- Encouraging heat transfer away from critical electronic components.
+- Avoiding excessive dependence on active cooling systems.
+
+Passive cooling was considered the most appropriate solution because of the project's low-power operating environment and wearable nature.
+
+### Thermal Design Trade-Off
+
+A significant engineering trade-off existed between thermal performance and environmental protection.
+
+Improved airflow generally improves cooling effectiveness but can simultaneously increase the risk of moisture ingress.
+
+As a result, thermal-management features were designed to achieve a balance between:
+
+- Heat dissipation.
+- Water resistance.
+- Manufacturability.
+- User comfort.
+
+This balancing process formed a central part of the overall engineering design strategy.
+
+### Expected Outcome
+
+The selected thermal-management strategy was intended to:
+
+- Maintain acceptable enclosure temperatures.
+- Improve component reliability.
+- Support wearer comfort.
+- Preserve environmental protection requirements.
+
+The effectiveness of the strategy was subsequently assessed through engineering analysis and design evaluation activities.
 
 ---
 
 ## Water Resistance Strategy
 
-[To be completed]
+Environmental protection was a primary design requirement because wearable devices are routinely exposed to sweat, light rain, accidental splashes, dust, and general outdoor conditions.
+
+The water-resistance strategy therefore aimed to reduce the likelihood of moisture ingress while maintaining manufacturability, thermal performance, and user comfort.
+
+### Environmental Design Objective
+
+The design was required to:
+
+- Resist exposure to sweat and moisture.
+- Reduce water ingress during normal daily use.
+- Protect internal electronic components.
+- Maintain product reliability.
+- Preserve user safety.
+
+The objective was not to create a fully waterproof device but rather to provide practical environmental protection appropriate for the intended operating conditions.
+
+### Water-Ingress Risks
+
+Several potential paths for moisture ingress were identified:
+
+- Enclosure joints.
+- Assembly gaps.
+- Charging-port interfaces.
+- Sensor openings.
+- FDM layer boundaries.
+- Fitment clearances between components.
+
+These locations required careful consideration during enclosure development.
+
+### FDM Manufacturing Considerations
+
+FDM-manufactured components introduce unique environmental-protection challenges.
+
+Potential issues include:
+
+- Layer-line permeability.
+- Print imperfections.
+- Dimensional tolerances.
+- Incomplete sealing at interfaces.
+
+As a result, water resistance could not rely solely on material selection and required additional enclosure-design measures.
+
+### Design Approach
+
+The environmental-protection strategy focused on reducing direct moisture exposure through:
+
+- Controlled enclosure geometry.
+- Minimisation of unnecessary openings.
+- Careful interface design.
+- Improved fit between mating components.
+- Strategic placement of internal electronics.
+
+Particular attention was given to areas where water accumulation or direct exposure was most likely to occur.
+
+### Water Resistance and Thermal Trade-Off
+
+A significant engineering trade-off existed between thermal management and environmental protection.
+
+Increased ventilation can improve heat dissipation but may also introduce additional pathways for moisture ingress.
+
+Conversely, a completely sealed enclosure can improve environmental protection while limiting cooling effectiveness.
+
+The final concept therefore aimed to balance:
+
+- Water resistance.
+- Thermal performance.
+- Manufacturability.
+- Maintenance accessibility.
+
+### Expected Outcome
+
+The final strategy was intended to:
+
+- Reduce moisture-ingress risk.
+- Improve electronic reliability.
+- Support long-term device operation.
+- Preserve usability in normal outdoor environments.
+
+The effectiveness of these design features was subsequently considered during design evaluation and validation activities.
 
 ---
 
 ## CAD Development
 
-[To be completed]
+Computer-Aided Design (CAD) was used throughout the project to translate conceptual solutions into manufacturable engineering geometry.
+
+The CAD development process was not limited to modelling component shapes. It was used as a design tool to evaluate manufacturability, enclosure packaging, thermal-management features, assembly requirements, and environmental-protection strategies.
+
+### Design Objectives
+
+The CAD model was developed to achieve the following objectives:
+
+- Accommodate all electronic components within a compact enclosure.
+- Maintain user comfort during extended wear.
+- Support FDM additive manufacturing.
+- Facilitate assembly and maintenance.
+- Incorporate thermal-management features.
+- Reduce moisture-ingress pathways.
+- Minimise overall device mass.
+
+### Enclosure Architecture
+
+The enclosure was designed as a compact integrated housing capable of supporting the internal electronic system while protecting sensitive components from routine environmental exposure.
+
+Particular attention was given to:
+
+- Internal component positioning.
+- Structural wall layout.
+- Assembly interfaces.
+- External ergonomics.
+- Manufacturing feasibility.
+
+The enclosure geometry was developed to balance compactness, durability, and manufacturability.
+
+### Component Integration
+
+Internal packaging considerations played a significant role in CAD development.
+
+The arrangement of electronic components was planned to:
+
+- Maximise available internal space.
+- Reduce interference between components.
+- Improve assembly accessibility.
+- Support thermal-management objectives.
+- Maintain acceptable mass distribution.
+
+The layout process required iterative modifications as different constraints and design requirements were evaluated.
+
+### Design for Manufacturing
+
+Design-for-Manufacturing (DFM) principles were incorporated throughout CAD development.
+
+Considerations included:
+
+- Print orientation.
+- Support-material requirements.
+- Minimum feature sizes.
+- Print tolerances.
+- Layer-based manufacturing limitations.
+
+Features that introduced unnecessary manufacturing complexity were avoided wherever possible.
+
+### Ergonomic Considerations
+
+Because the product was intended to be worn for extended periods, ergonomic factors influenced enclosure geometry.
+
+Key considerations included:
+
+- User comfort.
+- Weight distribution.
+- Overall device size.
+- Edge and surface geometry.
+- Interaction with wearable components.
+
+These factors helped ensure that the final design remained practical for everyday use.
+
+### Iterative Development
+
+The CAD model evolved through multiple design iterations.
+
+Each iteration incorporated feedback from:
+
+- Project requirements.
+- Engineering constraints.
+- Manufacturability assessments.
+- Material-selection decisions.
+- Thermal-management considerations.
+- Environmental-protection requirements.
+
+This iterative process allowed design refinements to be implemented before final evaluation and validation
 
 ---
 
 ## Engineering Analysis
 
-[To be completed]
+Engineering analysis was performed to evaluate whether the proposed design could satisfy the requirements established during the Product Design Specification (PDS) phase.
+
+The purpose of the analysis was not only to verify structural performance but also to assess the interaction between material selection, geometry, thermal-management requirements, environmental protection, and manufacturability.
+
+### Analysis Objectives
+
+The engineering-analysis phase sought to evaluate:
+
+- Structural integrity.
+- Thermal performance.
+- Material suitability.
+- Design feasibility.
+- Manufacturing practicality.
+
+The analysis process provided evidence to support design decisions made during concept development and material selection.
+
+### Structural Assessment
+
+A qualitative structural assessment was conducted to identify regions likely to experience elevated loading during normal operation and handling.
+
+Particular attention was paid to:
+
+- Enclosure walls.
+- Assembly interfaces.
+- Attachment features.
+- Strap connection regions.
+- Areas surrounding internal component mounting locations.
+
+These regions were considered critical because they could be subjected to repeated loading, handling forces, or accidental impacts.
+
+### Material Performance Assessment
+
+The selected enclosure materials were assessed against project requirements relating to:
+
+- Stiffness.
+- Strength.
+- Impact resistance.
+- Environmental durability.
+- Manufacturing compatibility.
+
+The analysis confirmed that the selected material combination provided a suitable balance between structural performance, durability, manufacturability, and cost.
+
+### Thermal Assessment
+
+Thermal considerations were evaluated to determine whether heat generated by electronic components could be safely dissipated throughout the enclosure.
+
+Factors considered included:
+
+- Internal heat generation.
+- Heat-transfer pathways.
+- Enclosure geometry.
+- Surface area available for cooling.
+- Environmental-protection requirements.
+
+Particular emphasis was placed on avoiding excessive heat accumulation within enclosed regions of the device.
+
+### Manufacturability Assessment
+
+The design was evaluated against the limitations of FDM additive manufacturing.
+
+Assessment criteria included:
+
+- Printability.
+- Support-material requirements.
+- Feature manufacturability.
+- Dimensional tolerance considerations.
+- Assembly practicality.
+
+This evaluation helped identify design features that could increase manufacturing difficulty or reduce production reliability.
+
+### Risk Assessment
+
+Potential failure modes were identified and reviewed during the analysis phase.
+
+Examples included:
+
+- Excessive enclosure deformation.
+- Material degradation.
+- Moisture ingress.
+- Manufacturing defects.
+- Thermal accumulation.
+- Mechanical damage caused by impact or handling.
+
+Considering these risks early in development helped guide subsequent design improvements.
+
+### Engineering Evaluation Outcome
+
+The engineering-analysis phase indicated that the selected concept was capable of satisfying the major project objectives while remaining compatible with manufacturing and environmental constraints.
+
+The analysis also identified areas requiring refinement and informed the final design-validation process.
 
 ---
 
 ## Validation
 
-[To be completed]
+Validation was conducted to determine whether the final design satisfied the objectives, requirements, and constraints established during the project-planning phase.
+
+The purpose of validation was to confirm that the proposed solution remained practical, manufacturable, and capable of meeting user expectations while addressing the key engineering challenges identified throughout development.
+
+### Validation Criteria
+
+The design was evaluated against the following criteria:
+
+- Functional performance.
+- Structural integrity.
+- Thermal safety.
+- Environmental protection.
+- User comfort.
+- Manufacturability.
+- Cost effectiveness.
+
+These criteria were derived directly from the Product Design Specification (PDS) and project objectives.
+
+### Functional Validation
+
+The proposed design was reviewed to ensure that it could support the primary purpose of the device:
+
+- Activity tracking.
+- Continuous daily operation.
+- Wearable deployment.
+- User interaction and usability.
+
+Functional requirements established during project planning were used as the basis for this assessment.
+
+### Structural Validation
+
+The enclosure architecture, component interfaces, and wearable features were reviewed to verify that they could withstand:
+
+- Routine handling.
+- Repeated use.
+- Minor accidental impacts.
+- Assembly and disassembly operations.
+
+Particular attention was given to locations most likely to experience concentrated loading during service.
+
+### Thermal Validation
+
+The thermal-management strategy was reviewed to confirm that:
+
+- Heat generated by internal electronics could be dissipated effectively.
+- User comfort would not be significantly affected.
+- Enclosure temperatures would remain within acceptable limits.
+- Electronic reliability would not be compromised by excessive heat accumulation.
+
+### Environmental Validation
+
+The water-resistance strategy was examined to determine whether moisture-ingress risks had been adequately addressed.
+
+Validation focused on:
+
+- Enclosure interfaces.
+- Assembly joints.
+- External openings.
+- Manufacturing-related sealing challenges.
+
+The objective was to maintain acceptable environmental protection while preserving usability and manufacturability.
+
+### Manufacturing Validation
+
+The final concept was assessed for compatibility with desktop FDM additive manufacturing.
+
+The review considered:
+
+- Printability.
+- Dimensional feasibility.
+- Assembly practicality.
+- Manufacturing complexity.
+- Material compatibility.
+
+This ensured that the design remained realistic from a prototyping and production perspective.
+
+### Design Trade-Off Validation
+
+The project involved several competing objectives that could not be independently maximised.
+
+Validation therefore included review of key engineering trade-offs including:
+
 
 ---
 
 ## Results
 
-[To be completed]
+The project successfully demonstrated the application of a structured engineering design process to the development of a wearable activity tracker.
+
+Rather than focusing solely on device functionality, the project investigated the interaction between thermal management, environmental protection, manufacturability, ergonomics, material selection, and cost constraints within a compact wearable product.
+
+### Engineering Outcomes
+
+The project achieved the following outcomes:
+
+- Development of a complete wearable-device design concept.
+- Creation of a structured Product Design Specification (PDS).
+- Identification and management of competing engineering requirements.
+- Development of an enclosure architecture suitable for FDM additive manufacturing.
+- Evaluation of candidate materials using a structured selection methodology.
+- Integration of thermal-management and environmental-protection considerations into the design process.
+- Completion of a CAD model suitable for engineering evaluation and future prototype development.
+
+### Design Outcomes
+
+The final concept incorporated:
+
+- A compact wearable form factor.
+- Environmental-protection features.
+- Passive thermal-management considerations.
+- Manufacturable enclosure geometry.
+- Material selections consistent with project objectives and constraints.
+- Design-for-Manufacturing (DFM) principles appropriate for desktop FDM production.
+
+### Key Engineering Findings
+
+Several important engineering findings emerged during the project:
+
+- Thermal management and water resistance are strongly coupled design problems.
+- Material selection cannot be based on a single property and must consider manufacturing, environmental, thermal, structural, and economic factors simultaneously.
+- FDM manufacturing introduces constraints that directly influence geometry, assembly design, and environmental protection.
+- Early identification of project constraints simplifies downstream design decisions.
+
+### Project Significance
+
+The project demonstrated that wearable-product design is a multidisciplinary engineering problem requiring the integration of:
+
+- Mechanical design.
+- Product development.
+- Material selection.
+- Manufacturing engineering.
+- Thermal management.
+- Engineering decision-making.
+
+The final design represented a balanced engineering solution developed through analysis, trade-off evaluation, and systematic design iteration.
 
 ---
 
 ## Lessons Learned
 
-[To be completed]
+This project provided valuable experience in the application of engineering design methodology to a realistic product-development challenge.
+
+While the technical outcome was the development of a wearable activity tracker concept, the most significant learning outcomes were related to engineering decision-making, requirement management, and trade-off analysis.
+
+### Engineering Lessons
+
+The project reinforced the importance of defining requirements before developing technical solutions.
+
+A clear Product Design Specification (PDS) provided a foundation for engineering decisions throughout the project and helped prevent design choices from being driven by assumptions or personal preference.
+
+The project also demonstrated that:
+
+- Design objectives must be established before selecting materials or creating CAD models.
+- Constraints often determine the viability of engineering solutions more strongly than component performance alone.
+- Engineering decisions should be supported by objective evaluation criteria wherever possible.
+
+### Material Selection Lessons
+
+One of the most important lessons was that material selection is an engineering process rather than a material comparison exercise.
+
+The project highlighted the importance of:
+
+- Defining performance requirements.
+- Screening unsuitable candidates.
+- Evaluating trade-offs between competing properties.
+- Considering manufacturing and environmental constraints.
+- Validating selections against project objectives.
+
+This approach provides significantly greater confidence than selecting materials based solely on familiarity or convenience.
+
+### Product Development Lessons
+
+The development process demonstrated that product design requires integration of multiple engineering disciplines.
+
+In this project, decisions relating to:
+
+- Material selection.
+- Thermal management.
+- Environmental protection.
+- Manufacturing.
+- Structural performance.
+- User comfort.
+
+could not be considered independently.
+
+Changes made in one area frequently affected performance in another area.
+
+### Design for Manufacturing Lessons
+
+The project highlighted the importance of accounting for manufacturing constraints early in development.
+
+FDM additive manufacturing influenced:
+
+- Geometry selection.
+- Wall-thickness decisions.
+- Feature design.
+- Assembly methods.
+- Environmental-protection strategies.
+
+Considering these limitations from the beginning reduced design risk and improved manufacturability.
+
+### Professional Development
+
+The project strengthened practical understanding of:
+
+- Product design methodology.
+- Engineering trade-off analysis.
+- Design-for-Manufacturing principles.
+- Material-selection methodology.
+- Engineering documentation.
+- Structured problem solving.
+
+These skills are directly applicable to future work involving mechanical design, product development, engineering analysis, and multidisciplinary design projects.
+
+### Final Reflection
+
+The most important lesson from the project was that successful engineering design rarely involves maximising a single performance metric.
+
+Effective solutions emerge from balancing competing objectives and constraints through a structured engineering process. The final wearable activity tracker concept therefore represents not only a product design exercise, but also an application of engineering judgement, evaluation, and decision-making principles.
