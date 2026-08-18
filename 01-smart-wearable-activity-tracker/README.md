@@ -216,6 +216,32 @@ As a result, the final design was developed through a series of engineering trad
 
 ---
 
+## Engineering Decision Framework
+
+The project was approached as a structured engineering optimisation problem rather than a simple device-development exercise.
+
+Insights from the Product Design Specification (PDS), design objectives, constraints, and free variables were used to guide engineering decisions throughout development.
+
+The design process followed the sequence below:
+
+1. Problem Definition
+2. Requirement Identification
+3. Objective Definition
+4. Constraint Identification
+5. Selection of Free Variables
+6. Concept Generation
+7. Material Screening
+8. Material Ranking
+9. Design Evaluation
+10. Engineering Analysis
+11. Validation and Refinement
+
+This approach ensured that engineering decisions were made using objective criteria rather than personal preference. Material selection, enclosure architecture, thermal-management features, and environmental-protection strategies were therefore evaluated against project requirements before being incorporated into the final design.
+
+The project was treated as a multi-objective optimisation problem in which thermal performance, environmental protection, structural integrity, manufacturability, user comfort, and cost had to be balanced simultaneously.
+
+---
+
 ## Concept Development
 
 [To be completed]
