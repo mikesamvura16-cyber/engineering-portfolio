@@ -71,6 +71,55 @@ The final design was required to balance thermal performance, environmental prot
 
 ---
 
+## Design Objectives
+
+The project was approached as a multi-objective engineering design problem rather than a device-construction exercise.
+
+The primary objective was to develop a wearable activity tracker capable of satisfying user and functional requirements while maintaining low manufacturing cost and low device mass.
+
+Secondary objectives included:
+
+- Maintaining thermal safety during operation and charging.
+- Reducing the likelihood of moisture ingress.
+- Maximising user comfort during prolonged use.
+- Ensuring compatibility with desktop FDM additive manufacturing.
+- Achieving acceptable structural robustness for everyday use.
+- Supporting straightforward assembly and maintenance.
+
+Because these objectives often conflicted with one another, the final design was developed through systematic engineering trade-off analysis rather than optimisation of a single performance metric.
+
+## Free Variables
+
+Several design parameters remained adjustable throughout the development process and were therefore treated as free variables during the design process.
+
+### Material Variables
+
+- Enclosure material selection.
+- Flexible component material selection.
+- Wall thickness selection.
+- Material distribution within the enclosure.
+
+### Geometric Variables
+
+- Enclosure dimensions.
+- Wall geometry.
+- Vent configuration.
+- Snap-fit geometry.
+- Strap architecture.
+- Internal component placement.
+
+### Manufacturing Variables
+
+- Print orientation.
+- Layer thickness.
+- Infill density.
+- Support strategy.
+- Assembly methodology.
+
+These free variables were adjusted throughout development to achieve the project objectives while satisfying thermal, environmental, manufacturing, and structural constraints.
+
+---
+
 ## Constraints
 
 The project was governed by several competing engineering constraints that influenced design decisions throughout the development process.
