@@ -1,11 +1,12 @@
 # Smart Wearable Activity Tracker
 
+
 <p align="center">
-  images/hero-render.png
+   Step Counter hero_edited Render.png" width="700">
 </p>
 
 <p align="center">
-Final rendered wearable activity tracker developed using SOLIDWORKS and Design-for-Manufacturing principles.
+  <em>Portfolio hero image based on the final SOLIDWORKS Visualize render of the wearable activity tracker.</em>
 </p>
 
 ## Project Overview
