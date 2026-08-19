@@ -1,5 +1,13 @@
 # Smart Wearable Activity Tracker
 
+<p align="center">
+  images/hero-render.png
+</p>
+
+<p align="center">
+Final rendered wearable activity tracker developed using SOLIDWORKS and Design-for-Manufacturing principles.
+</p>
+
 ## Project Overview
 
 A wearable activity tracking device developed to investigate the challenges of thermal management, water resistance, user comfort, manufacturability, and cost within a compact consumer product.
