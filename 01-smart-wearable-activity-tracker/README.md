@@ -351,23 +351,10 @@ The concepts were evaluated against seven criteria derived from the Product Desi
 | CR2 | User Comfort |
 | CR3 | Manufacturability |
 | CR4 | Durability |
-| CR5 | Cost |
+| CR5 | Versatility |
 | CR6 | Environmental Protection |
-| CR7 | Versatility |
+| CR7 | Cost |
 
----
-
-
-
-| Criterion | Description |
-|:---:|:---:|
-| CR1 | Functionality |
-| CR2 | User Comfort |
-| CR3 | Manufacturability |
-| CR4 | Durability |
-| CR5 | Cost |
-| CR6 | Environmental Protection |
-| CR7 | Versatility |
 
 ### Criteria Comparison Matrix
 
