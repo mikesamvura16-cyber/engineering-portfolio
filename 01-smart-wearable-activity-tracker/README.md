@@ -1,7 +1,8 @@
 # Smart Wearable Activity Tracker
 
+
 <p align="center">
-  /Smart Step Counter hero_edited Render.png" width="700">
+  images/Smart Step Counter hero_edited Render.png
 </p>
 
 <p align="center">
