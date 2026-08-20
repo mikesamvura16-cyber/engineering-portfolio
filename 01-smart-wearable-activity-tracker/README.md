@@ -386,10 +386,56 @@ The concepts were evaluated against seven criteria derived from the Product Desi
 |:---:|:---:|:---:|:---:|:---:|
 | C1 |   | 0.6 | 0.4 | 1.0 |
 | C2 | 0.4 |   | 0.3 | 0.7 |
-| C3 | 0.6 | 0.7 |   | **1.3** |
+| C3 | 0.6 | 0.7 |   | 🏆**1.3** |
 
-Concept 3 achieved the highest functionality score due to ...
 
+### CR2 = User Comfort
+
+|     | C1 | C2 | C3 | Total |
+|:---:|:---:|:---:|:---:|:---:|
+| C1 |   | 0.7 | 0.4 | 1.1 |
+| C2 | 0.3 |   | 0.2 | 0.5 |
+| C3 | 0.6 | 0.8 |   | 🏆 **1.4** |
+
+### CR3 = Manufacturability
+
+|     | C1 | C2 | C3 | Total |
+|:---:|:---:|:---:|:---:|:---:|
+| C1 |   | 0.3 | 0.5 | 0.8 |
+| C2 | 0.7 |   | 0.6 | 🏆 **1.3** |
+| C3 | 0.5 | 0.4 |   | 0.9 |
+
+### CR4 = Durability
+
+|     | C1 | C2 | C3 | Total |
+|:---:|:---:|:---:|:---:|:---:|
+| C1 |   | 0.5 | 0.4 | 0.9 |
+| C2 | 0.5 |   | 0.4 | 0.9 |
+| C3 | 0.6 | 0.6 |   | 🏆 **1.2** |
+
+### CR5 = Versatility
+
+|     | C1 | C2 | C3 | Total |
+|:---:|:---:|:---:|:---:|:---:|
+| C1 |   | 0.6 | 0.2 | 0.8 |
+| C2 | 0.4 |   | 0.1 | 0.5 |
+| C3 | 0.8 | 0.9 |   | 🏆 **1.7** |
+
+### CR6 = Environmental Protection
+
+|     | C1 | C2 | C3 | Total |
+|:---:|:---:|:---:|:---:|:---:|
+| C1 |   | 0.8 | 0.7 | 🏆 **1.5** |
+| C2 | 0.2 |   | 0.4 | 0.6 |
+| C3 | 0.3 | 0.6 |   | 0.9 |
+
+### CR7 = Cost
+
+|     | C1 | C2 | C3 | Total |
+|:---:|:---:|:---:|:---:|:---:|
+| C1 |   | 0.3 | 0.5 | 0.8 |
+| C2 | 0.7 |   | 0.6 | 🏆 **1.3** |
+| C3 | 0.5 | 0.4 |   | 0.9 |
 
 The selected concept formed the basis for subsequent material-selection activities, CAD development, engineering analysis, and design validation.
 
