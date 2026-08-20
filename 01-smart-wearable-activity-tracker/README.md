@@ -256,6 +256,12 @@ The concept-generation stage focused on balancing functionality with manufactura
 
 ### Concept 1: Fully Sealed Enclosure
 
+<p align="center">
+  <img src="images/Concept%201%20Drawingture.png" width="420" alt="Concept 1 Model">
+  <br>
+  <em>Concept 1 showing initial enclosure architecture and corresponding CAD visualization.</em>
+</p>
+
 This concept prioritised environmental protection through the use of a fully enclosed housing with minimal external openings.
 
 Advantages:
@@ -272,6 +278,13 @@ Disadvantages:
 
 ### Concept 2: Ventilated Enclosure
 
+<p align="center">
+  <img src="images/Concept" alt="Concept 2 Drawing">
+  <img src="images/Concept%202%20Sideview%png
+  <br>
+  <em>Concept 2 showing ventilation-focused design development and enclosure configuration.</em>
+</p>
+
 This concept introduced ventilation features to improve thermal performance.
 
 Advantages:
@@ -287,6 +300,13 @@ Disadvantages:
 - More complex sealing requirements.
 
 ### Concept 3: Hybrid Approach
+
+<p align="center">
+  20Shell%20Picture.png" width="420" alt="Concept 3 Shell">
+  with%20belt%20Picture.png" width="420" alt="Concept 3 Assembly">
+  <br>
+  <em>Concept 3 combining enclosure, sealing strategy, and wearable strap architecture.</em>
+</p>
 
 The final concept combined controlled ventilation, environmental protection features, and a modular enclosure architecture.
 
