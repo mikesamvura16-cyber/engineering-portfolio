@@ -357,6 +357,21 @@ The concepts were evaluated against seven criteria derived from the Product Desi
 
 ---
 
+### Criteria Weighting
+
+| Criterion | Total | Weight |
+|:---:|:---:|:---:|
+| CR1 | 3.9 | 0.186 |
+| CR2 | 3.0 | 0.143 |
+| CR3 | 2.7 | 0.129 |
+| CR4 | 2.8 | 0.133 |
+| CR5 | 1.8 | 0.086 |
+| CR6 | 2.9 | 0.138 |
+| CR7 | 3.9 | 0.186 |
+
+
+
+
 The selected concept formed the basis for subsequent material-selection activities, CAD development, engineering analysis, and design validation.
 
 ---
