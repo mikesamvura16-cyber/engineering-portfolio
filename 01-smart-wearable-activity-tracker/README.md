@@ -6,6 +6,11 @@
   <em>Portfolio hero image based on the final SOLIDWORKS Visualize render of the wearable activity tracker.</em>
 </p>
 
+<p align="center">
+  <img src="images/Smart%20Step%20Counter%20hero_edited%20Render.png" width="600" alt="SolidWorks Render">
+  <br>
+  <em>Portfolio hero image based on the final SOLIDWORKS Visualize render of the wearable activity tracker.</em>
+</p>
 
 ## Project Overview
 
