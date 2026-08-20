@@ -386,7 +386,7 @@ The concepts were evaluated against seven criteria derived from the Product Desi
 |:---:|:---:|:---:|:---:|:---:|
 | C1 |   | 0.6 | 0.4 | 1.0 |
 | C2 | 0.4 |   | 0.3 | 0.7 |
-| C3 | 0.6 | 0.7 |   | 🏆**1.3** |
+| C3 | 0.6 | 0.7 |   | **1.3** |
 
 
 ### CR2 = User Comfort
@@ -395,14 +395,14 @@ The concepts were evaluated against seven criteria derived from the Product Desi
 |:---:|:---:|:---:|:---:|:---:|
 | C1 |   | 0.7 | 0.4 | 1.1 |
 | C2 | 0.3 |   | 0.2 | 0.5 |
-| C3 | 0.6 | 0.8 |   | 🏆 **1.4** |
+| C3 | 0.6 | 0.8 |   | **1.4** |
 
 ### CR3 = Manufacturability
 
 |     | C1 | C2 | C3 | Total |
 |:---:|:---:|:---:|:---:|:---:|
 | C1 |   | 0.3 | 0.5 | 0.8 |
-| C2 | 0.7 |   | 0.6 | 🏆 **1.3** |
+| C2 | 0.7 |   | 0.6 | **1.3** |
 | C3 | 0.5 | 0.4 |   | 0.9 |
 
 ### CR4 = Durability
@@ -411,7 +411,7 @@ The concepts were evaluated against seven criteria derived from the Product Desi
 |:---:|:---:|:---:|:---:|:---:|
 | C1 |   | 0.5 | 0.4 | 0.9 |
 | C2 | 0.5 |   | 0.4 | 0.9 |
-| C3 | 0.6 | 0.6 |   | 🏆 **1.2** |
+| C3 | 0.6 | 0.6 |   | **1.2** |
 
 ### CR5 = Versatility
 
@@ -419,13 +419,13 @@ The concepts were evaluated against seven criteria derived from the Product Desi
 |:---:|:---:|:---:|:---:|:---:|
 | C1 |   | 0.6 | 0.2 | 0.8 |
 | C2 | 0.4 |   | 0.1 | 0.5 |
-| C3 | 0.8 | 0.9 |   | 🏆 **1.7** |
+| C3 | 0.8 | 0.9 |   | **1.7** |
 
 ### CR6 = Environmental Protection
 
 |     | C1 | C2 | C3 | Total |
 |:---:|:---:|:---:|:---:|:---:|
-| C1 |   | 0.8 | 0.7 | 🏆 **1.5** |
+| C1 |   | 0.8 | 0.7 | **1.5** |
 | C2 | 0.2 |   | 0.4 | 0.6 |
 | C3 | 0.3 | 0.6 |   | 0.9 |
 
@@ -434,10 +434,44 @@ The concepts were evaluated against seven criteria derived from the Product Desi
 |     | C1 | C2 | C3 | Total |
 |:---:|:---:|:---:|:---:|:---:|
 | C1 |   | 0.3 | 0.5 | 0.8 |
-| C2 | 0.7 |   | 0.6 | 🏆 **1.3** |
+| C2 | 0.7 |   | 0.6 |  **1.3** |
 | C3 | 0.5 | 0.4 |   | 0.9 |
 
-The selected concept formed the basis for subsequent material-selection activities, CAD development, engineering analysis, and design validation.
+### Concept Evaluation Summary
+
+| Criterion | C1 | C2 | C3 |
+|:---:|:---:|:---:|:---:|
+| CR1 | 1.0 | 0.7 | **1.3** |
+| CR2 | 1.1 | 0.5 | **1.4** |
+| CR3 | 0.8 | **1.3** | 0.9 |
+| CR4 | 0.9 | 0.9 | **1.2** |
+| CR5 | 0.8 | 0.5 | **1.7** |
+| CR6 | **1.5** | 0.6 | 0.9 |
+| CR7 | 0.8 | **1.3** | 0.9 |
+
+### Weighted Decision Matrix
+
+| Criterion | Weight | C1 | C2 | C3 |
+|:---:|:---:|:---:|:---:|:---:|
+| CR1 | 0.186 | 0.186 | 0.130 | 0.242 |
+| CR2 | 0.143 | 0.157 | 0.072 | 0.200 |
+| CR3 | 0.129 | 0.103 | 0.168 | 0.116 |
+| CR4 | 0.133 | 0.120 | 0.120 | 0.160 |
+| CR5 | 0.086 | 0.069 | 0.043 | 0.146 |
+| CR6 | 0.138 | 0.207 | 0.083 | 0.124 |
+| CR7 | 0.186 | 0.149 | 0.242 | 0.167 |
+| **Total** |  | 0.991 | 0.858 | **1.155** |
+
+### Selected Concept
+
+Concept 3 achieved the highest weighted score during the concept-evaluation process.
+
+Although Concept 1 performed strongly in environmental protection and Concept 2 achieved favourable manufacturability and cost scores, Concept 3 consistently performed well across the majority of evaluation criteria and achieved the highest scores in functionality, user comfort, durability, and versatility.
+
+The concept provided the best overall balance between user adaptability, functional performance, manufacturability, environmental protection, and long-term usability while remaining aligned with the Product Design Specification (PDS) requirements.
+
+As a result, Concept 3 was selected for further development and formed the basis for subsequent material-selection activities, CAD development, engineering analysis, and design validation.
+
 
 ---
 
