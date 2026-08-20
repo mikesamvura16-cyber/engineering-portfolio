@@ -488,6 +488,18 @@ The selection process followed four stages:
 3. Ranking
 4. Validation
 
+### Functional Decomposition
+
+The final design was decomposed into three categories based on primary mechanical function. This approach ensured that material selection was performed according to component-specific requirements rather than forcing a single material to satisfy all functional demands.
+
+| Component Category | Primary Function |
+|:-------------------|:-----------------|
+| Main Enclosure (Chassis & Cover) | Structural support and protection |
+| Internal Seal | Environmental sealing |
+| Strap Links and Clasp | Load transfer and repeated articulation |
+
+This functional decomposition formed the basis of the subsequent Ashby-based material selection process.
+
 ### Translation
 
 Project requirements were translated into engineering requirements for both rigid and flexible components.
@@ -529,6 +541,12 @@ Candidate materials were screened against mandatory requirements.
 - Alternative elastomeric materials
 
 Materials unable to satisfy manufacturing, environmental, thermal, or durability requirements were eliminated from further consideration.
+
+### Ashby Material Screening
+
+Ashby material selection charts were used to evaluate the relationships between strength, density, stiffness, cost, manufacturability, and overall suitability for the intended application.
+
+The objective was to identify candidate materials capable of satisfying the structural, thermal, environmental, and manufacturing requirements established during the Translation stage while remaining compatible with desktop FDM additive manufacturing processes.
 
 ### Ranking
 
