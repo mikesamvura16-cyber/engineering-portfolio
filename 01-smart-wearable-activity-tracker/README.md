@@ -548,6 +548,28 @@ Ashby material selection charts were used to evaluate the relationships between 
 
 The objective was to identify candidate materials capable of satisfying the structural, thermal, environmental, and manufacturing requirements established during the Translation stage while remaining compatible with desktop FDM additive manufacturing processes.
 
+<p align="center">
+  <img src="images/Strength-Density.png" width="700" alt="Ashby Strength-Density Chart">
+  <br>
+  <em>Ashby Strength-Density chart used to evaluate specific strength and mass-efficiency for the structural chassis.</em>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="images/Modulus-Stregnth.png" width="700" alt="Ashby Modulus-Strength Chart">
+  <br>
+  <em>Ashby Modulus-Strength chart used to compare material stiffness against yield strength limits.</em>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="images/Modulus-Cost.png" width="700" alt="Ashby Modulus-Cost Chart">
+  <br>
+  <em>Ashby Modulus-Cost chart illustrating the trade-off between mechanical performance and economic constraints.</em>
+</p>
+
 ### Ranking
 
 The remaining candidate materials were evaluated using engineering performance criteria.
@@ -562,9 +584,111 @@ Evaluation factors included:
 - Cost.
 - Material availability.
 
+  ### Material Evaluation Criteria
+
+The final enclosure material candidates were evaluated against five criteria derived from the Product Design Specification (PDS), Ashby screening process, and manufacturing constraints.
+
+| Criterion | Description |
+|:----------|:------------|
+| MR1 | Impact Strength |
+| MR2 | Printability |
+| MR3 | Thermal Resistance |
+| MR4 | Environmental Resistance |
+| MR5 | Cost |
+
+### Material Criteria Comparison Matrix
+
+|     | MR1 | MR2 | MR3 | MR4 | MR5 | Total |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| MR1 |   | 0.6 | 0.7 | 0.7 | 0.8 | 2.8 |
+| MR2 | 0.4 |   | 0.6 | 0.6 | 0.7 | 2.3 |
+| MR3 | 0.3 | 0.4 |   | 0.5 | 0.6 | 1.8 |
+| MR4 | 0.3 | 0.4 | 0.5 |   | 0.6 | 1.8 |
+| MR5 | 0.2 | 0.3 | 0.4 | 0.4 |   | 1.3 |
+
+### Material Criteria Weighting
+
+| Criterion | Total | Weight |
+|:----------|------:|------:|
+| MR1 | 2.8 | 0.28 |
+| MR2 | 2.3 | 0.23 |
+| MR3 | 1.8 | 0.18 |
+| MR4 | 1.8 | 0.18 |
+| MR5 | 1.3 | 0.13 |
+
+### MR1 = Impact Strength
+
+|     | MT1 | MT2 | MT3 | Total |
+|:---:|:---:|:---:|:---:|:---:|
+| MT1 |   | 0.2 | 0.2 | 0.4 |
+| MT2 | 0.8 |   | 0.5 | 1.3 |
+| MT3 | 0.8 | 0.5 |   | **1.3** |
+
+### MR2 = Printability
+
+|     | MT1 | MT2 | MT3 | Total |
+|:---:|:---:|:---:|:---:|:---:|
+| MT1 |   | 0.8 | 0.6 | **1.4** |
+| MT2 | 0.2 |   | 0.2 | 0.4 |
+| MT3 | 0.4 | 0.8 |   | 1.2 |
+
+### MR3 = Thermal Resistance
+
+|     | MT1 | MT2 | MT3 | Total |
+|:---:|:---:|:---:|:---:|:---:|
+| MT1 |   | 0.2 | 0.3 | 0.5 |
+| MT2 | 0.8 |   | 0.6 | **1.4** |
+| MT3 | 0.7 | 0.4 |   | 1.1 |
+
+### MR4 = Environmental Resistance
+
+|     | MT1 | MT2 | MT3 | Total |
+|:---:|:---:|:---:|:---:|:---:|
+| MT1 |   | 0.2 | 0.2 | 0.4 |
+| MT2 | 0.8 |   | 0.4 | 1.2 |
+| MT3 | 0.8 | 0.6 |   | **1.4** |
+
+### MR5 = Cost
+
+|     | MT1 | MT2 | MT3 | Total |
+|:---:|:---:|:---:|:---:|:---:|
+| MT1 |   | 0.7 | 0.6 | **1.3** |
+| MT2 | 0.3 |   | 0.4 | 0.7 |
+| MT3 | 0.4 | 0.6 |   | 1.0 |
+
+### Material Evaluation Summary
+
+| Criterion | MT1 | MT2 | MT3 |
+|:----------|:---:|:---:|:---:|
+| MR1 | 0.4 | 1.3 | **1.3** |
+| MR2 | **1.4** | 0.4 | 1.2 |
+| MR3 | 0.5 | **1.4** | 1.1 |
+| MR4 | 0.4 | 1.2 | **1.4** |
+| MR5 | **1.3** | 0.7 | 1.0 |
+
+### Weighted Material Decision Matrix
+
+| Criterion | Weight | MT1 | MT2 | MT3 |
+|:----------|:------:|:---:|:---:|:---:|
+| MR1 | 0.28 | 0.112 | 0.364 | 0.364 |
+| MR2 | 0.23 | 0.322 | 0.092 | 0.276 |
+| MR3 | 0.18 | 0.090 | 0.252 | 0.198 |
+| MR4 | 0.18 | 0.072 | 0.216 | 0.252 |
+| MR5 | 0.13 | 0.169 | 0.091 | 0.130 |
+| **Total Score** |  | 0.765 | 1.015 | **1.220** |
+``
+
+
+
 Because the project involved multiple competing objectives, no single material property was used as the sole decision criterion.
 
 Instead, materials were evaluated according to their overall ability to satisfy project requirements simultaneously.
+
+### Material Evaluation Criteria
+
+The final enclosure material candidates were evaluated against five criteria derived from the Product Design Specification (PDS), Ashby screening process, and manufacturing constraints.
+
+
 
 ### Validation
 
