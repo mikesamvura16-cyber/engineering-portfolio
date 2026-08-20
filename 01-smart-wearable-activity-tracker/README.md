@@ -341,17 +341,21 @@ Concept 3 adopted a modular approach centred around a compact self-contained ele
 
 ### Concept Selection
 
-The three concepts were evaluated against the key design requirements identified during the Product Design Specification (PDS) phase, including usability, manufacturability, environmental protection, cost, comfort, durability, and functional performance.
+### Selection Criteria
 
-Although Concepts 1 and 2 offered advantages for dedicated wearable use, Concept 3 provided the greatest flexibility while maintaining compliance with the primary functional requirements. The ability to operate as a clip-on, pocketable, or wearable device offered significant advantages for different usage scenarios and reduced limitations associated with fixed-placement activity trackers.
+The concepts were evaluated against seven criteria derived from the Product Design Specification (PDS) and project objectives.
 
-As a result, Concept 3 was selected for further development and formed the basis for subsequent material selection, CAD development, engineering analysis, and design validation activities.
+| Criterion | Description |
+|----------------|-------------|
+| CR1 | Functionality |
+| CR2 | User Comfort |
+| CR3 | Manufacturability |
+| CR4 | Durability |
+| CR5 | Cost |
+| CR6 | Environmental Protection |
+| CR7 | Versatility |
 
-### Concept Selection
-
-The hybrid concept was selected for further development because it provided the most balanced solution to the project's competing objectives.
-
-Unlike concepts that focused exclusively on either cooling performance or environmental protection, the hybrid concept offered a practical compromise between thermal management, water resistance, manufacturability, user comfort, and cost.
+---
 
 The selected concept formed the basis for subsequent material-selection activities, CAD development, engineering analysis, and design validation.
 
