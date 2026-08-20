@@ -340,6 +340,123 @@ Disadvantages:
 - Increased design complexity.
 - Required careful optimisation of competing requirements.
 
+## Concept Development
+
+Several design concepts were generated to investigate different approaches for integrating sensing electronics, power storage, user interaction, manufacturability, and device usability within a compact wearable activity-tracking system.
+
+The concept-generation stage explored alternative approaches to device placement, charging methodology, enclosure integration, and user interaction. Each concept was evaluated against the Product Design Specification (PDS), design objectives, and engineering constraints established during the earlier stages of the project.
+
+### Concept 1: Integrated Strap with Wireless Charging
+
+<p align="center">
+  images/Concept%201%20Drawing.png
+  <br>
+  <em>Concept development drawing for the integrated strap design.</em>
+</p>
+
+<br>
+
+<p align="center">
+  images/Concept%201%20Picture.png
+  <br>
+  <em>CAD representation of the integrated strap concept incorporating wireless charging.</em>
+</p>
+
+<br>
+
+Concept 1 proposed a highly integrated wearable architecture in which the electronics enclosure and wrist strap formed a unified assembly. The concept utilised wireless charging to eliminate the need for an external charging port, improving environmental protection while maintaining a clean external appearance.
+
+**Advantages:**
+
+- Improved resistance to moisture ingress through elimination of charging-port openings.
+- Streamlined and aesthetically clean appearance.
+- Improved user convenience through wireless charging.
+- Reduced number of exposed interfaces.
+
+**Disadvantages:**
+
+- Increased charging-system complexity.
+- Higher component and implementation cost.
+- More demanding integration of charging hardware.
+- Increased design complexity compared with wired alternatives.
+
+### Concept 2: Integrated Bracelet Design with Wired Charging
+
+<p align="center">
+  images/Concept%202%20Drawings.png
+  <br>
+  <em>Concept development drawing for the integrated bracelet architecture.</em>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="images/Concept%202%%20Picture.png
+  <br>
+  <em>Side-view CAD model of the rigid bracelet-style wearable device.</em>
+</p>
+
+<br>
+
+Concept 2 proposed a rigid bracelet-style activity tracker in which the enclosure and wearable structure were combined into a single continuous form. The design employed a USB-C charging interface and focused on simplicity, compactness, and ease of manufacture.
+
+**Advantages:**
+
+- Distinct and minimalist appearance.
+- Simplified integrated structure.
+- Established USB-C charging solution.
+- Reduced dependence on specialised charging components.
+
+**Disadvantages:**
+
+- Reduced adjustability for different users.
+- Potential comfort limitations due to rigid geometry.
+- Charging-port interface introduces environmental-protection challenges.
+- Less adaptable than flexible wearable alternatives.
+
+### Concept 3: Versatile Clip-On / Pocketable Module
+
+<p align="center">
+  /Concept%203%20Shell%20Picture.png" width="400" alt="Concept 3 Shell">
+  <br>
+  <em>Compact self-contained module developed for multiple deployment configurations.</em>
+</p>
+
+<br>
+
+<p align="center">
+  images/Concept%203%20with%20belt%20Picture.png" width="400" alt="Concept 3 Assembly">
+  <br>
+  <em>Concept 3 illustrating clip-on and wearable deployment options.</em>
+</p>
+
+<br>
+
+Concept 3 adopted a modular approach centred around a compact self-contained electronics enclosure capable of supporting multiple deployment modes. The device could be clipped onto clothing, carried in a pocket, attached to a belt, or integrated into a wearable band when desired. The design prioritised user flexibility and adaptability.
+
+**Advantages:**
+
+- Multiple deployment configurations.
+- Increased placement flexibility.
+- Potential improvement in step-detection accuracy.
+- Adaptable to different user preferences and activities.
+- Compact and efficient electronics packaging.
+
+**Disadvantages:**
+
+- Increased attachment-system complexity.
+- Additional design effort required to support multiple deployment modes.
+- Higher component count than a dedicated wearable solution.
+- More complex user-interface considerations.
+
+### Concept Selection
+
+The three concepts were evaluated against the key design requirements identified during the Product Design Specification (PDS) phase, including usability, manufacturability, environmental protection, cost, comfort, durability, and functional performance.
+
+Although Concepts 1 and 2 offered advantages for dedicated wearable use, Concept 3 provided the greatest flexibility while maintaining compliance with the primary functional requirements. The ability to operate as a clip-on, pocketable, or wearable device offered significant advantages for different usage scenarios and reduced limitations associated with fixed-placement activity trackers.
+
+As a result, Concept 3 was selected for further development and formed the basis for subsequent material selection, CAD development, engineering analysis, and design validation activities.
+
 ### Concept Selection
 
 The hybrid concept was selected for further development because it provided the most balanced solution to the project's competing objectives.
