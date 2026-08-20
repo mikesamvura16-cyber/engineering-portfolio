@@ -1,11 +1,11 @@
 # Smart Wearable Activity Tracker
 
 
-<p align="center">
-  images/Smart Step Counter hero_edited Render.png
-</p>
 
+images/Smart%20Step%20Counter%20hero_edited%20Render.png
 <p align="center">
+
+  
   <em>Portfolio hero image based on the final SOLIDWORKS Visualize render of the wearable activity tracker.</em>
 </p>
 
