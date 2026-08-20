@@ -357,6 +357,30 @@ The concepts were evaluated against seven criteria derived from the Product Desi
 
 ---
 
+
+
+| Criterion | Description |
+|:---:|:---:|
+| CR1 | Functionality |
+| CR2 | User Comfort |
+| CR3 | Manufacturability |
+| CR4 | Durability |
+| CR5 | Cost |
+| CR6 | Environmental Protection |
+| CR7 | Versatility |
+
+### Criteria Comparison Matrix
+
+|     | CR1 | CR2 | CR3 | CR4 | CR5 | CR6 | CR7 | Total |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| CR1 |   | 0.6 | 0.7 | 0.7 | 0.8 | 0.6 | 0.5 | 3.9 |
+| CR2 | 0.4 |   | 0.6 | 0.5 | 0.7 | 0.5 | 0.3 | 3.0 |
+| CR3 | 0.3 | 0.4 |   | 0.5 | 0.6 | 0.5 | 0.4 | 2.7 |
+| CR4 | 0.3 | 0.5 | 0.5 |   | 0.6 | 0.5 | 0.4 | 2.8 |
+| CR5 | 0.2 | 0.3 | 0.4 | 0.4 |   | 0.3 | 0.2 | 1.8 |
+| CR6 | 0.4 | 0.5 | 0.5 | 0.5 | 0.7 |   | 0.3 | 2.9 |
+| CR7 | 0.5 | 0.7 | 0.6 | 0.6 | 0.8 | 0.7 |   | 3.9 |
+
 ### Criteria Weighting
 
 | Criterion | Total | Weight |
