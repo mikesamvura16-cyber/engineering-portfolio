@@ -250,98 +250,6 @@ The project was treated as a multi-objective optimisation problem in which therm
 
 ## Concept Development
 
-Several design concepts were generated to investigate different approaches for integrating sensing electronics, power storage, environmental protection, and user comfort within a compact wearable device.
-
-The concept-generation stage focused on balancing functionality with manufacturability while satisfying the project objectives and engineering constraints.
-
-### Concept 1: Fully Sealed Enclosure
-
-<p align="center">
-  <img src="images/Concept%201%20Drawing.png" width="400" alt="Concept 1 Drawing">
-  <br>
-  <em>Dimensional overview of the initial L-profile bracket and enclosure layout.</em>
-</p>
-
-<p align="center">
-  <img src="images/Concept%201%20Picuture.png" width="400" alt="Concept 1 Model">
-  <br>
-  <em>CAD visualization of the fully sealed enclosure concept.</em>
-</p>
-
-
-This concept prioritised environmental protection through the use of a fully enclosed housing with minimal external openings.
-
-Advantages:
-
-- Improved resistance to moisture ingress.
-- Simple external appearance.
-- Reduced contamination risk.
-
-Disadvantages:
-
-- Limited natural heat dissipation.
-- Potential increase in enclosure temperature.
-- More challenging maintenance and access.
-
-### Concept 2: Ventilated Enclosure
-
-
-<p align="center">
-  <img src="images/Concept%202%20Drawings.png" width="400" alt="Concept 2 Drawing">
-  <br>
-  <em>Technical drawing of the ventilated enclosure with integrated airflow pathways.</em>
-</p>
-
-<p align="center">
-  <img src="images/Concept%202%20Sideview%20Picture.png" width="400" alt="Concept 2 Side View">
-  <br>
-  <em>Side profile visualization showing the thin-wall architecture for mass reduction.</em>
-</p>
-
-This concept introduced ventilation features to improve thermal performance.
-
-Advantages:
-
-- Improved heat dissipation.
-- Reduced internal temperature build-up.
-- Potential improvement in electronic reliability.
-
-Disadvantages:
-
-- Increased risk of water ingress.
-- Reduced environmental protection.
-- More complex sealing requirements.
-
-### Concept 3: Hybrid Approach
-
-<p align="center">
-  <img src="images/Concept%203%20Shell%20Picture.png" width="400" alt="Concept 3 Shell">
-  <br>
-  <em>Modular shell design developed for PETG additive manufacturing.</em>
-</p>
-
-<p align="center">
-  <img src="images/Concept%203%20with%20belt%20Picture.png" width="400" alt="Concept 3 Assembly">
-  <br>
-  <em>Final hybrid assembly featuring TPU wearable interfaces and labyrinth venting.</em>
-</p>
-
-The final concept combined controlled ventilation, environmental protection features, and a modular enclosure architecture.
-
-Advantages:
-
-- Balanced thermal performance and environmental resistance.
-- Improved manufacturability using FDM processes.
-- Simplified assembly and maintenance.
-- Better accommodation of internal components.
-
-Disadvantages:
-
-- Increased design complexity.
-- Required careful optimisation of competing requirements.
-
-## Concept Development
-
 Several design concepts were generated to investigate different approaches for integrating sensing electronics, power storage, user interaction, manufacturability, and device usability within a compact wearable activity-tracking system.
 
 The concept-generation stage explored alternative approaches to device placement, charging methodology, enclosure integration, and user interaction. Each concept was evaluated against the Product Design Specification (PDS), design objectives, and engineering constraints established during the earlier stages of the project.
@@ -349,32 +257,26 @@ The concept-generation stage explored alternative approaches to device placement
 ### Concept 1: Integrated Strap with Wireless Charging
 
 <p align="center">
-  images/Concept%201%20Drawing.png
+  <img src="images/Concept%201%20Drawing.png" width="500" alt="Integrated Strap Drawing">
   <br>
   <em>Concept development drawing for the integrated strap design.</em>
 </p>
 
-<br>
-
 <p align="center">
-  images/Concept%201%20Picture.png
+  <img src="images/Concept%201%20Picuture.png" width="500" alt="Integrated Strap CAD">
   <br>
   <em>CAD representation of the integrated strap concept incorporating wireless charging.</em>
 </p>
 
-<br>
-
 Concept 1 proposed a highly integrated wearable architecture in which the electronics enclosure and wrist strap formed a unified assembly. The concept utilised wireless charging to eliminate the need for an external charging port, improving environmental protection while maintaining a clean external appearance.
 
 **Advantages:**
-
 - Improved resistance to moisture ingress through elimination of charging-port openings.
 - Streamlined and aesthetically clean appearance.
 - Improved user convenience through wireless charging.
 - Reduced number of exposed interfaces.
 
 **Disadvantages:**
-
 - Increased charging-system complexity.
 - Higher component and implementation cost.
 - More demanding integration of charging hardware.
@@ -383,32 +285,26 @@ Concept 1 proposed a highly integrated wearable architecture in which the electr
 ### Concept 2: Integrated Bracelet Design with Wired Charging
 
 <p align="center">
-  images/Concept%202%20Drawings.png
+  <img src="images/Concept%202%20Drawings.png" width="500" alt="Integrated Bracelet Drawing">
   <br>
   <em>Concept development drawing for the integrated bracelet architecture.</em>
 </p>
 
-<br>
-
 <p align="center">
-  <img src="images/Concept%202%%20Picture.png
+  <img src="images/Concept%202%20Sideview%20Picture.png" width="500" alt="Bracelet Side View">
   <br>
   <em>Side-view CAD model of the rigid bracelet-style wearable device.</em>
 </p>
 
-<br>
-
 Concept 2 proposed a rigid bracelet-style activity tracker in which the enclosure and wearable structure were combined into a single continuous form. The design employed a USB-C charging interface and focused on simplicity, compactness, and ease of manufacture.
 
 **Advantages:**
-
 - Distinct and minimalist appearance.
 - Simplified integrated structure.
 - Established USB-C charging solution.
 - Reduced dependence on specialised charging components.
 
 **Disadvantages:**
-
 - Reduced adjustability for different users.
 - Potential comfort limitations due to rigid geometry.
 - Charging-port interface introduces environmental-protection challenges.
@@ -417,25 +313,20 @@ Concept 2 proposed a rigid bracelet-style activity tracker in which the enclosur
 ### Concept 3: Versatile Clip-On / Pocketable Module
 
 <p align="center">
-  /Concept%203%20Shell%20Picture.png" width="400" alt="Concept 3 Shell">
+  <img src="images/Concept%203%20Shell%20Picture.png" width="500" alt="Modular Module CAD">
   <br>
   <em>Compact self-contained module developed for multiple deployment configurations.</em>
 </p>
 
-<br>
-
 <p align="center">
-  images/Concept%203%20with%20belt%20Picture.png" width="400" alt="Concept 3 Assembly">
+  <img src="images/Concept%203%20with%20belt%20Picture.png" width="500" alt="Clip-on Deployment">
   <br>
   <em>Concept 3 illustrating clip-on and wearable deployment options.</em>
 </p>
 
-<br>
-
 Concept 3 adopted a modular approach centred around a compact self-contained electronics enclosure capable of supporting multiple deployment modes. The device could be clipped onto clothing, carried in a pocket, attached to a belt, or integrated into a wearable band when desired. The design prioritised user flexibility and adaptability.
 
 **Advantages:**
-
 - Multiple deployment configurations.
 - Increased placement flexibility.
 - Potential improvement in step-detection accuracy.
@@ -443,7 +334,6 @@ Concept 3 adopted a modular approach centred around a compact self-contained ele
 - Compact and efficient electronics packaging.
 
 **Disadvantages:**
-
 - Increased attachment-system complexity.
 - Additional design effort required to support multiple deployment modes.
 - Higher component count than a dedicated wearable solution.
