@@ -257,10 +257,17 @@ The concept-generation stage focused on balancing functionality with manufactura
 ### Concept 1: Fully Sealed Enclosure
 
 <p align="center">
-  <img src="images/Concept%201%20Drawingture.png" width="420" alt="Concept 1 Model">
+  <img src="images/Concept%201%20Drawing.png" width="400" alt="Concept 1 Drawing">
   <br>
-  <em>Concept 1 showing initial enclosure architecture and corresponding CAD visualization.</em>
+  <em>Dimensional overview of the initial L-profile bracket and enclosure layout.</em>
 </p>
+
+<p align="center">
+  <img src="images/Concept%201%20Picuture.png" width="400" alt="Concept 1 Model">
+  <br>
+  <em>CAD visualization of the fully sealed enclosure concept.</em>
+</p>
+
 
 This concept prioritised environmental protection through the use of a fully enclosed housing with minimal external openings.
 
@@ -278,11 +285,17 @@ Disadvantages:
 
 ### Concept 2: Ventilated Enclosure
 
+
 <p align="center">
-  <img src="images/Concept" alt="Concept 2 Drawing">
-  <img src="images/Concept%202%20Sideview%png
+  <img src="images/Concept%202%20Drawings.png" width="400" alt="Concept 2 Drawing">
   <br>
-  <em>Concept 2 showing ventilation-focused design development and enclosure configuration.</em>
+  <em>Technical drawing of the ventilated enclosure with integrated airflow pathways.</em>
+</p>
+
+<p align="center">
+  <img src="images/Concept%202%20Sideview%20Picture.png" width="400" alt="Concept 2 Side View">
+  <br>
+  <em>Side profile visualization showing the thin-wall architecture for mass reduction.</em>
 </p>
 
 This concept introduced ventilation features to improve thermal performance.
@@ -302,10 +315,15 @@ Disadvantages:
 ### Concept 3: Hybrid Approach
 
 <p align="center">
-  20Shell%20Picture.png" width="420" alt="Concept 3 Shell">
-  with%20belt%20Picture.png" width="420" alt="Concept 3 Assembly">
+  <img src="images/Concept%203%20Shell%20Picture.png" width="400" alt="Concept 3 Shell">
   <br>
-  <em>Concept 3 combining enclosure, sealing strategy, and wearable strap architecture.</em>
+  <em>Modular shell design developed for PETG additive manufacturing.</em>
+</p>
+
+<p align="center">
+  <img src="images/Concept%203%20with%20belt%20Picture.png" width="400" alt="Concept 3 Assembly">
+  <br>
+  <em>Final hybrid assembly featuring TPU wearable interfaces and labyrinth venting.</em>
 </p>
 
 The final concept combined controlled ventilation, environmental protection features, and a modular enclosure architecture.
