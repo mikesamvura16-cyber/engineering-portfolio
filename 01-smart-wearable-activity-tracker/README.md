@@ -549,7 +549,7 @@ Ashby material selection charts were used to evaluate the relationships between 
 The objective was to identify candidate materials capable of satisfying the structural, thermal, environmental, and manufacturing requirements established during the Translation stage while remaining compatible with desktop FDM additive manufacturing processes.
 
 <p align="center">
-  <img src="images/Strength-Density.png" width="700" alt="Ashby Strength-Density Chart">
+  <img src="images/Strenghth-Density.png" width="700" alt="Ashby Strength-Density Chart">
   <br>
   <em>Ashby Strength-Density chart used to evaluate specific strength and mass-efficiency for the structural chassis.</em>
 </p>
@@ -676,7 +676,6 @@ The final enclosure material candidates were evaluated against five criteria der
 | MR4 | 0.18 | 0.072 | 0.216 | 0.252 |
 | MR5 | 0.13 | 0.169 | 0.091 | 0.130 |
 | **Total Score** |  | 0.765 | 1.015 | **1.220** |
-``
 
 
 
