@@ -380,7 +380,15 @@ The concepts were evaluated against seven criteria derived from the Product Desi
 | CR6 | 2.9 | 0.138 |
 | CR7 | 3.9 | 0.186 |
 
+### CR1 = Functionality
 
+|     | C1 | C2 | C3 | Total |
+|:---:|:---:|:---:|:---:|:---:|
+| C1 |   | 0.6 | 0.4 | 1.0 |
+| C2 | 0.4 |   | 0.3 | 0.7 |
+| C3 | 0.6 | 0.7 |   | **1.3** |
+
+Concept 3 achieved the highest functionality score due to ...
 
 
 The selected concept formed the basis for subsequent material-selection activities, CAD development, engineering analysis, and design validation.
