@@ -966,7 +966,7 @@ The effectiveness of these design features was subsequently considered during de
 ## CAD Development
 
 <p align="center">
-  <img src="images/Final Assembly Birdsview Pic.png" width="700" alt="Final Assembly Birdsview">
+  <img src="images/Final%20Assembly%20Birdsview%20Pic.png" width="700" alt="Final Assembly Birdsview">
   <br>
   <em>Final wearable activity tracker assembly developed in SOLIDWORKS.</em>
 </p>
@@ -1084,6 +1084,36 @@ The final assembly was developed using a modular architecture consisting of encl
 
 <p align="center">
   images/Repeating%20Link.png
+  <br>
+  <em>Repeating link component used to provide bracelet adjustability and load transfer between strap sections.</em>
+</p>
+
+<p align="center">
+  <img src="images/Bottom%20Cover.png" width="500">
+  <br>
+  <em>Bottom cover component incorporating enclosure retention and assembly features.</em>
+</p>
+
+<p align="center">
+  <img src="images/Seal.png" width="500">
+  <br>
+  <em>Seal component developed to improve environmental protection and reduce moisture-ingress pathways.</em>
+</p>
+
+<p align="center">
+  <img src="images/Male%20LINK.png" width="500">
+  <br>
+  <em>Male strap-link component used to create the articulating wearable structure.</em>
+</p>
+
+<p align="center">
+  <img src="images/Female%20Link.png" width="500">
+  <br>
+  <em>Female strap-link component designed to interface with adjacent links and maintain structural continuity.</em>
+</p>
+
+<p align="center">
+  <img src="images/Repeating%20Link.png" width="500">
   <br>
   <em>Repeating link component used to provide bracelet adjustability and load transfer between strap sections.</em>
 </p>
