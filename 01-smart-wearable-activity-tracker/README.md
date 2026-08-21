@@ -616,6 +616,14 @@ The final enclosure material candidates were evaluated against five criteria der
 | MR4 | 1.8 | 0.18 |
 | MR5 | 1.3 | 0.13 |
 
+The candidate enclosure materials were designated as follows:
+
+| Material Identifier | Material |
+|:--------------------|:---------|
+| MT1 | PLA |
+| MT2 | ABS |
+| MT3 | PETG |
+
 ### MR1 = Impact Strength
 
 |     | MT1 | MT2 | MT3 | Total |
@@ -677,16 +685,15 @@ The final enclosure material candidates were evaluated against five criteria der
 | MR5 | 0.13 | 0.169 | 0.091 | 0.130 |
 | **Total Score** |  | 0.765 | 1.015 | **1.220** |
 
+### Engineering Trade-Off Assessment
 
+The final material decision was not based on a single property.
 
-Because the project involved multiple competing objectives, no single material property was used as the sole decision criterion.
+PLA demonstrated excellent printability and low cost but exhibited insufficient thermal resistance for a wearable electronic enclosure.
 
-Instead, materials were evaluated according to their overall ability to satisfy project requirements simultaneously.
+ABS provided strong mechanical and thermal performance but introduced significant manufacturing challenges due to warping and stricter printing requirements.
 
-### Material Evaluation Criteria
-
-The final enclosure material candidates were evaluated against five criteria derived from the Product Design Specification (PDS), Ashby screening process, and manufacturing constraints.
-
+PETG provided the most balanced combination of impact resistance, thermal stability, environmental durability, manufacturability, and cost. As a result, PETG achieved the highest overall weighted score and was selected as the preferred material for the structural enclosure components.
 
 
 ### Validation
@@ -791,10 +798,12 @@ TPU offered significant advantages for wearable applications where comfort and f
 
 ### Material Selection Outcome
 
-The final design adopted a hybrid-material strategy consisting of:
+The weighted material evaluation identified PETG as the most suitable structural material for the enclosure components, while TPU was selected for flexible and sealing applications.
+
+The final design therefore adopted a hybrid-material strategy consisting of:
 
 - PETG for structural enclosure components.
-- TPU for flexible wearable interfaces.
+- TPU for flexible wearable interfaces and sealing components.
 
 This material combination provided an effective compromise between thermal performance, durability, environmental resistance, user comfort, manufacturability, and overall project cost while remaining compatible with desktop FDM additive manufacturing.
 
