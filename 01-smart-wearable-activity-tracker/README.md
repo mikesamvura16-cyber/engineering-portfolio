@@ -965,9 +965,21 @@ The effectiveness of these design features was subsequently considered during de
 
 ## CAD Development
 
+<p align="center">
+  <img src="images/Final%20Assembly%20Birdsview%20Pic.png" width="700">
+  <br>
+  <em>Final wearable activity tracker assembly developed in SOLIDWORKS.</em>
+</p>
+
 Computer-Aided Design (CAD) was used throughout the project to translate conceptual solutions into manufacturable engineering geometry.
 
 The CAD development process was not limited to modelling component shapes. It was used as a design tool to evaluate manufacturability, enclosure packaging, thermal-management features, assembly requirements, and environmental-protection strategies.
+
+<p align="center">
+  <img src="images/Final%20Assembly%20Exploadedview.png" width="700" alt="Exploded Assembly">
+  <br>
+  <em>Exploded assembly view illustrating enclosure architecture, sealing components, and strap integration.</em>
+</p>
 
 ### Design Objectives
 
@@ -983,6 +995,12 @@ The CAD model was developed to achieve the following objectives:
 
 ### Enclosure Architecture
 
+<p align="center">
+  <img src="images/Final%20Assembly%20Sectioned%20Sideview%20Pic.png" width="700">
+  <br>
+  <em>Sectioned assembly view illustrating internal packaging, enclosure geometry, and component integration.</em>
+</p>
+
 The enclosure was designed as a compact integrated housing capable of supporting the internal electronic system while protecting sensitive components from routine environmental exposure.
 
 Particular attention was given to:
@@ -997,7 +1015,14 @@ The enclosure geometry was developed to balance compactness, durability, and man
 
 ### Component Integration
 
+<p align="center">
+  <img src="images/Final%20Assembly%20Opp%20Sideview%20Pic.png" width="700">
+  <br>
+  <em>Assembly view used to evaluate component placement, packaging efficiency, and enclosure proportions.</em>
+</p>
+
 Internal packaging considerations played a significant role in CAD development.
+
 
 The arrangement of electronic components was planned to:
 
@@ -1010,6 +1035,12 @@ The arrangement of electronic components was planned to:
 The layout process required iterative modifications as different constraints and design requirements were evaluated.
 
 ### Design for Manufacturing
+
+<p align="center">
+  <img src="images/Final%20Assembly%20Bottomview%20Clipsview.png" width="700" alt="Bottom View">
+  <br>
+  <em>Bottom view illustrating clasp features, assembly interfaces, and FDM-manufacturable geometry.</em>
+</p>
 
 Design-for-Manufacturing (DFM) principles were incorporated throughout CAD development.
 
