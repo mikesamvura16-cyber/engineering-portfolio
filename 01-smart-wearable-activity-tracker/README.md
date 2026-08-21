@@ -966,10 +966,12 @@ The effectiveness of these design features was subsequently considered during de
 ## CAD Development
 
 <p align="center">
-  <img src="images/Final%20Assembly%20Birdsview%20Pic.png" width="700" alt="Final Assembly Birdsview">
+  <img src="images/Final%20Assembly%20Birdeye%20view.png" width="700" alt="Final Design View">
   <br>
-  <em>Final wearable activity tracker assembly developed in SOLIDWORKS.</em>
+  <em>Final bird's eye view of the validated wearable activity tracker assembly.</em>
 </p>
+
+
 Computer-Aided Design (CAD) was used throughout the project to translate conceptual solutions into manufacturable engineering geometry.
 
 The CAD development process was not limited to modelling component shapes. It was used as a design tool to evaluate manufacturability, enclosure packaging, thermal-management features, assembly requirements, and environmental-protection strategies.
@@ -1167,6 +1169,7 @@ Stress analysis was used to identify critical stress concentrations and evaluate
 The simulation results indicated that the selected geometry and materials were capable of satisfying the primary structural, thermal, and manufacturing requirements established during the Product Design Specification (PDS) phase.
 
 Thermal analysis supported the passive cooling strategy, while structural simulations demonstrated acceptable stress and displacement behaviour within critical components and assembly features. The engineering-analysis phase therefore provided confidence that the final design could satisfy the project objectives while remaining compatible with manufacturing, environmental, and usability constraints.
+
 ---
 
 ## Validation
