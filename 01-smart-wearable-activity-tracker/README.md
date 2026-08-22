@@ -71,7 +71,6 @@ A Product Design Specification (PDS) was developed to translate user needs into 
 - Maintain a low prototype manufacturing cost.
 - Prioritise affordability without compromising essential functionality and reliability.
 
-
 ---
 
 ## Design Objectives
