@@ -1393,4 +1393,192 @@ The most important lesson from the project was that successful engineering desig
 
 Effective solutions emerge from balancing competing objectives and constraints through a structured engineering process. The final wearable activity tracker concept therefore represents not only a product design exercise, but also an application of engineering judgement, evaluation, and decision-making principles.
 
+## Engineering Analysis
 
+Engineering analysis was performed to evaluate whether the proposed design could satisfy the requirements established during the Product Design Specification (PDS) phase.
+
+### Mesh Development & Refinement Strategy
+
+To enable numerical analysis, the geometry was discretised into a finite-element mesh. A multi-stage meshing strategy was employed to ensure that critical stress regions were captured accurately while maintaining computational efficiency.
+
+#### 1. Global Discretisation
+An initial solid mesh was generated to establish the global structural response of the enclosure and wearable components under loading conditions.
+
+<p align="center">
+  <img src="images/Case%20Botton%201st%20Mesh.png" width="600" alt="Global Mesh">
+  <br>
+  <em>Initial finite-element mesh generated for the structural enclosure analysis.</em>
+</p>
+
+#### 2. Local Refinement
+The analysis was conducted iteratively rather than using a single mesh configuration. Initial simulation results were used to identify hotspot regions exhibiting elevated stress gradients and geometric discontinuities. Local mesh refinement was subsequently applied to strap-link connection regions, snap-fit features, and internal fillets until the simulated response exhibited stable behaviour.
+
+<p align="center">
+  <img src="images/Case%20Sideview%20Mesh%201st.png" width="600" alt="Local Refinement">
+  <br>
+  <em>Local mesh refinement applied to critical geometric regions and identified stress-concentration zones.</em>
+</p>
+
+#### 3. Mesh Quality Audit
+A mesh-quality assessment was performed to verify that the discretisation was suitable for high-fidelity numerical analysis.
+
+<p align="center">
+  <img src="images/Mesh%20Details.png" width="500" alt="Mesh Quality Metrics">
+  <br>
+  <em>Mesh detail report confirming high-quality discretisation for numerical stability.</em>
+</p>
+
+| Metric | Value |
+| :--- | :---: |
+| Mesh Type | Solid Mesh |
+| Global Element Size | 1 mm |
+| Tolerance | 0.05 mm |
+| Total Nodes | 61,894 |
+| Total Elements | 34,493 |
+| Maximum Aspect Ratio | 7.5395 |
+| Elements with Aspect Ratio < 3 | 98.4% |
+| Distorted Elements | 0% |
+
+Although the global mesh size was set to 1 mm, additional local mesh controls were applied to critical regions—specifically the strap-link interfaces and thin-wall corners—to capture stress gradients accurately without unnecessarily increasing the global computational cost.
+
+---
+
+### Thermal Assessment
+
+Thermal simulation was performed to evaluate heat dissipation throughout the enclosure during operation and charging conditions. The analysis assessed the effectiveness of the passive thermal-management strategy and identified regions susceptible to temperature accumulation.
+
+<p align="center">
+  <img src="images/Case%20Thermal%20Results.png" width="700" alt="Thermal Results">
+  <br>
+  <em>Thermal analysis showing temperature distribution (Kelvin) across the device surfaces.</em>
+</p>
+
+### Structural Assessment (URES)
+
+Displacement analysis was conducted to evaluate deformation under applied loading conditions and verify that the selected geometry maintained functional integrity without excessive deflection.
+
+<p align="center">
+  <img src="images/Case%20Male%20joint%20URES%20rESULTS.png" width="700" alt="Displacement Results">
+  <br>
+  <em>Resultant displacement (URES) plot for the articulated load-bearing connector link.</em>
+</p>
+
+The displacement results indicated that deformation remained within acceptable operational limits and did not compromise the functionality of the articulated connection system.
+
+### Stress Assessment (Von Mises)
+
+Stress analysis was used to identify critical stress concentrations and evaluate structural performance under expected service loads, validating the Factor of Safety against the material yield strength of PETG.
+
+<p align="center">
+  <img src="images/Male%20Link%20Von%20Mises.png" width="700" alt="Von Mises Stress">
+  <br>
+  <em>Von Mises stress distribution used to validate the Factor of Safety (FoS) against material yield strength.</em>
+</p>
+
+The stress distribution remained below the yield strength of the selected PETG material, supporting the suitability of the design for repeated service conditions.
+
+### Engineering Evaluation Outcome
+
+The simulation results indicated that the selected geometry and materials were capable of satisfying the primary structural, thermal, and manufacturing requirements established during the Product Design Specification (PDS) phase.
+
+Thermal analysis supported the passive cooling strategy, while structural simulations demonstrated acceptable stress and displacement behaviour within critical components and assembly features. The combination of iterative mesh refinement, thermal analysis, and structural evaluation provided technical confidence in the overall robustness of the final design.
+
+---
+
+## Validation
+
+Validation was conducted to determine whether the final design satisfied the objectives, requirements, and constraints established during the project-planning phase. The purpose of validation was to confirm that the proposed solution remained practical, manufacturable, and capable of meeting user expectations while addressing the key engineering challenges identified throughout development.
+
+### Validation Criteria
+The design was evaluated against the following criteria:
+- **Functional performance:** Activity tracking and continuous daily operation.
+- **Structural integrity:** Reliability under routine handling and minor accidental impacts.
+- **Thermal safety:** Maintaining surface temperatures below the 45°C safety threshold.
+- **Environmental protection:** Resistance to sweat and moisture ingress.
+- **User comfort:** Ergonomic form factor and mass distribution.
+- **Manufacturability:** Compatibility with desktop FDM processes.
+- **Cost effectiveness:** Affordability of materials and production.
+
+### Functional Validation
+The proposed design was reviewed to ensure that it could support the primary purpose of the device: activity tracking, continuous daily operation, wearable deployment, and user interaction. Functional requirements established during project planning were used as the basis for this assessment.
+
+### Structural Validation
+The enclosure architecture, component interfaces, and wearable features were reviewed to verify that they could withstand routine handling, repeated use, and minor accidental impacts. Assembly and disassembly operations were also evaluated. Particular attention was given to locations most likely to experience concentrated loading during service.
+
+### Thermal Validation
+The thermal-management strategy was reviewed to confirm that heat generated by internal electronics could be dissipated effectively. Validation focused on ensuring that user comfort would not be significantly affected and that enclosure temperatures would remain within acceptable limits to prevent compromising electronic reliability.
+
+### Environmental Validation
+The water-resistance strategy was examined to determine whether moisture-ingress risks had been adequately addressed. Validation focused on enclosure interfaces, assembly joints, external openings, and manufacturing-related sealing challenges. The objective was to maintain acceptable environmental protection while preserving usability in normal outdoor environments.
+
+### Manufacturing Validation
+The final concept was assessed for compatibility with desktop FDM additive manufacturing. The review considered printability, dimensional feasibility, assembly practicality, manufacturing complexity, and material compatibility to ensure the design remained realistic from a production perspective.
+
+### Design Trade-Off Validation
+The project involved several competing objectives that could not be independently maximised. Validation therefore included review of key engineering trade-offs including:
+- **Thermal performance versus Environmental protection:** Balancing cooling airflow against moisture sealing.
+- **Structural strength versus Device mass:** Optimising wall thickness for durability versus weight.
+- **Manufacturability versus Geometric complexity:** Balancing design features against FDM production limits.
+- **User comfort versus Enclosure robustness:** Maintaining ergonomics while ensuring component protection.
+- **Cost versus Material performance:** Selecting PETG as an optimal economic and mechanical compromise.
+- **Cooling effectiveness versus Enclosure sealing performance.**
+
+The final design was evaluated according to its ability to balance these competing requirements rather than maximising a single performance metric.
+
+### Validation Outcome
+The final design was found to satisfy the primary requirements established in the Product Design Specification (PDS). The selected concept, material strategy, enclosure architecture, and manufacturing methodology collectively provided a balanced solution to the competing design requirements.
+
+The validation process confirmed that the final design successfully balanced requirements relating to thermal performance, environmental protection, manufacturability, structural integrity, user comfort, and cost. It remained feasible, manufacturable, and capable of meeting the intended functional and usability objectives.
+
+---
+
+## Results & Significance
+
+The project successfully demonstrated the application of a structured engineering design process to the development of a wearable activity tracker. Rather than focusing solely on device functionality, the project investigated the interaction between thermal management, environmental protection, manufacturability, ergonomics, material selection, and cost constraints.
+
+### Engineering Outcomes
+- **Complete Design Concept:** Development of a wearable-device concept capable of meeting complex consumer requirements.
+- **Structured Specification:** Creation of a PDS that translated user needs into measurable engineering targets.
+- **Constraint Management:** Identification and successful management of competing requirements through iterative design.
+- **Advanced Manufacturing Readiness:** Development of an enclosure architecture specifically optimized for FDM additive manufacturing.
+- **Material Logic:** Evaluation of candidate materials using a structured selection methodology and weighted decision matrices.
+- **Integrated Analysis:** Completion of a CAD and FEA model validated for both structural and thermal performance.
+
+### Design Outcomes
+The final concept successfully incorporated a compact wearable form factor, environmental-protection features, passive thermal-management considerations, and manufacturable geometry. Material selections remained consistent with project objectives, specifically utilizing PETG for the chassis and TPU for flexible interfaces.
+
+### Key Engineering Findings
+- **Coupled Design Problems:** Thermal management and water resistance are strongly coupled; a change in one directly impacts the performance of the other.
+- **Multi-Objective Selection:** Material selection cannot be based on a single property and must consider manufacturing, environmental, thermal, and economic factors simultaneously.
+- **Constraint-Driven Design:** FDM manufacturing introduces unique constraints that directly influence geometry, assembly design, and environmental protection.
+
+### Project Significance
+The project demonstrated that wearable-product design is a multidisciplinary engineering problem requiring the integration of mechanical design, product development, material selection, manufacturing engineering, and thermal management. The final design represents a balanced engineering solution developed through objective analysis and systematic design iteration.
+
+---
+
+## Lessons Learned
+
+### Engineering Lessons
+The project reinforced the importance of defining requirements before developing technical solutions. A clear PDS provided a foundation for decisions and prevented choices from being driven by assumptions. It also demonstrated that constraints often determine the viability of solutions more strongly than component performance alone. Engineering decisions should be supported by objective evaluation criteria wherever possible.
+
+### Material Selection Lessons
+Material selection is an engineering process rather than a comparison exercise. The project highlighted the importance of defining performance requirements, screening unsuitable candidates, evaluating trade-offs, and validating selections against project objectives. This approach provides significantly greater confidence than selecting materials based on familiarity.
+
+### Product Development Lessons
+The process demonstrated that product design requires integration of multiple disciplines. Decisions in one area—such as thermal management—frequently affected performance in another area, such as environmental protection. Changes could not be considered independently.
+
+### Design for Manufacturing Lessons
+The project highlighted the importance of accounting for manufacturing constraints early in development. FDM additive manufacturing influenced geometry selection, wall-thickness, feature design, and assembly methods. Considering these limitations from the beginning reduced design risk and improved manufacturability.
+
+### Professional Development
+The project strengthened practical understanding of product design methodology, engineering trade-off analysis, DFM principles, material-selection methodology, and engineering documentation. These skills are directly applicable to future multidisciplinary design projects.
+
+### Final Reflection
+The most important lesson was that successful engineering design rarely involves maximising a single performance metric. Effective solutions emerge from balancing competing objectives and constraints through a structured engineering process. The final wearable activity tracker concept represents an application of professional engineering judgement, evaluation, and decision-making principles.
+
+---
+
+## Author
+
+**Munashe Mike Samvura**  
