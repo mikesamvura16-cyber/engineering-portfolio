@@ -1392,3 +1392,5 @@ These skills are directly applicable to future work involving mechanical design,
 The most important lesson from the project was that successful engineering design rarely involves maximising a single performance metric.
 
 Effective solutions emerge from balancing competing objectives and constraints through a structured engineering process. The final wearable activity tracker concept therefore represents not only a product design exercise, but also an application of engineering judgement, evaluation, and decision-making principles.
+
+
