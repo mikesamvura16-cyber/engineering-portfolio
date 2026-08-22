@@ -1307,7 +1307,7 @@ The most important lesson from the project was that successful engineering desig
 
 **Munashe Mike Samvura**  
 
-Mechanical Engineering Student
+Mechanical Engineering Candidate
 
 *Smart Wearable Activity Tracker*
  
