@@ -20,7 +20,7 @@ The objective of this project was not simply to create a functioning step counte
 
 The primary challenge involved balancing thermal management and environmental protection within a compact enclosure. Improved cooling generally requires increased airflow, while improved water resistance requires restricting airflow pathways. These requirements directly conflict with one another and must be carefully balanced during the design process.
 
-Additional constraints included user comfort, battery endurance, structural integrity, manufacturability using FDM additive manufacturing, and overall product cost. The project therefore became a multidisciplinary engineering exercise involving mechanical design, material selection, thermal management, product development, and design for manufacturing(DFM) principles.
+Additional constraints included user comfort, battery endurance, structural integrity, manufacturability using FDM additive manufacturing, and overall product cost. The project therefore became a multidisciplinary engineering exercise involving mechanical design, material selection, thermal management, product development, and design for manufacturing(DfM) principles.
 
 The final goal was to develop a practical wearable activity tracker capable of satisfying user requirements while demonstrating a structured engineering design process supported by analysis, trade-off evaluation, and validation.
 
@@ -32,7 +32,7 @@ A Product Design Specification (PDS) was developed to translate user needs into 
 
 ### Functional Requirements
 
-- Accurately record and display step-count information.
+- Accurately record and display step count information.
 - Operate continuously during normal daily activities.
 - Provide reliable performance during walking, jogging, and general movement.
 
@@ -75,7 +75,7 @@ A Product Design Specification (PDS) was developed to translate user needs into 
 
 ## Design Objectives
 
-The project was approached as a multi-objective engineering design problem rather than a device-construction exercise.
+The project was approached as a multi-objective engineering design problem rather than a device construction exercise.
 
 The primary objective was to develop a wearable activity tracker capable of satisfying user and functional requirements while maintaining low manufacturing cost and low device mass.
 
