@@ -2,7 +2,7 @@
 
 ## Munashe Samvura
 
-Mechanical Engineering Student | CSWA-Certified Designer | AI Trainer & Evaluator
+Mechanical Engineering Candidate | CSWA-Certified Designer | AI Trainer & Evaluator
 
 I am a Mechanical Engineering student focused on solving engineering problems through analysis, simulation, design, validation, and technical evaluation. My work spans mechanical design, product development, thermal management, finite element analysis, MATLAB modelling, Python programming, and AI evaluation.
 
