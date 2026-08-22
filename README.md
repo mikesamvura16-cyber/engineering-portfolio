@@ -4,7 +4,7 @@
 
 Mechanical Engineering Candidate | CSWA-Certified Designer | AI Trainer & Evaluator
 
-I am a Mechanical Engineering student focused on solving engineering problems through analysis, simulation, design, validation, and technical evaluation. My work spans mechanical design, product development, thermal management, finite element analysis, MATLAB modelling, Python programming, and AI evaluation.
+I am a Mechanical Engineering candidate focused on solving engineering problems through analysis, simulation, design, validation, and technical evaluation. My work spans mechanical design, product development, thermal management, finite element analysis, MATLAB modelling, Python programming, and AI evaluation.
 
 ---
 
