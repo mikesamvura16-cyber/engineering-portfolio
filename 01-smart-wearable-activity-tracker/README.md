@@ -93,7 +93,7 @@ Because these objectives often conflicted with one another, the final design was
 
 ## Free Variables
 
-Several design parameters remained adjustable throughout the development process and were therefore treated as free variables during the design process.
+The final design was influenced by a number of adjustable mechanical design variables, including material selection, geometry, enclosure architecture, and manufacturing parameters.
 
 ### Material Variables
 
