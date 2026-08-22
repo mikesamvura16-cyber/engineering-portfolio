@@ -1306,6 +1306,3 @@ The most important lesson from the project was that successful engineering desig
 ## Author
 
 **Munashe Mike Samvura**  
-
-*Project Portfolio: Smart Wearable Activity Tracker*  
-*End of Project Portfolio*
