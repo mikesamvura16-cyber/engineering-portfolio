@@ -20,7 +20,7 @@ The objective of this project was not simply to create a functioning step counte
 
 The primary challenge involved balancing thermal management and environmental protection within a compact enclosure. Improved cooling generally requires increased airflow, while improved water resistance requires restricting airflow pathways. These requirements directly conflict with one another and must be carefully balanced during the design process.
 
-Additional constraints included user comfort, battery endurance, structural integrity, manufacturability using FDM additive manufacturing, and overall product cost. The project therefore became a multidisciplinary engineering exercise involving mechanical design, material selection, thermal management, product development, and design-for-manufacturing principles.
+Additional constraints included user comfort, battery endurance, structural integrity, manufacturability using FDM additive manufacturing, and overall product cost. The project therefore became a multidisciplinary engineering exercise involving mechanical design, material selection, thermal management, product development, and design for manufacturing(DFM) principles.
 
 The final goal was to develop a practical wearable activity tracker capable of satisfying user requirements while demonstrating a structured engineering design process supported by analysis, trade-off evaluation, and validation.
 
@@ -123,13 +123,13 @@ These free variables were adjusted throughout development to achieve the project
 ---
 ## Design Variables and Fixed Parameters
 
-To support systematic engineering decision-making, project parameters were separated into fixed parameters and adjustable design variables.
+To support systematic engineering decision making, project parameters were separated into fixed parameters and adjustable design variables.
 
 ### Fixed Parameters
 
 The following parameters were considered fixed throughout development:
 
-- Wearable activity-tracking functionality.
+- Wearable activity tracking functionality.
 - Intended operating environment.
 - Daily-use operating conditions.
 - User comfort requirements.
@@ -241,7 +241,7 @@ The design process followed the sequence below:
 10. Engineering Analysis
 11. Validation and Refinement
 
-This approach ensured that engineering decisions were made using objective criteria rather than personal preference. Material selection, enclosure architecture, thermal-management features, and environmental-protection strategies were therefore evaluated against project requirements before being incorporated into the final design.
+This approach ensured that engineering decisions were made using objective criteria rather than personal preference. Material selection, enclosure architecture, thermal management features, and environmental-protection strategies were therefore evaluated against project requirements before being incorporated into the final design.
 
 The project was treated as a multi-objective optimisation problem in which thermal performance, environmental protection, structural integrity, manufacturability, user comfort, and cost had to be balanced simultaneously.
 
@@ -251,7 +251,7 @@ The project was treated as a multi-objective optimisation problem in which therm
 
 Several design concepts were generated to investigate different approaches for integrating sensing electronics, power storage, user interaction, manufacturability, and device usability within a compact wearable activity-tracking system.
 
-The concept-generation stage explored alternative approaches to device placement, charging methodology, enclosure integration, and user interaction. Each concept was evaluated against the Product Design Specification (PDS), design objectives, and engineering constraints established during the earlier stages of the project.
+The concept generation stage explored alternative approaches to device placement, charging methodology, enclosure integration, and user interaction. Each concept was evaluated against the Product Design Specification (PDS), design objectives, and engineering constraints established during the earlier stages of the project.
 
 ### Concept 1: Integrated Strap with Wireless Charging
 
@@ -276,7 +276,7 @@ Concept 1 proposed a highly integrated wearable architecture in which the electr
 - Reduced number of exposed interfaces.
 
 **Disadvantages:**
-- Increased charging-system complexity.
+- Increased charging system complexity.
 - Higher component and implementation cost.
 - More demanding integration of charging hardware.
 - Increased design complexity compared with wired alternatives.
@@ -295,7 +295,7 @@ Concept 1 proposed a highly integrated wearable architecture in which the electr
   <em>Side-view CAD model of the rigid bracelet-style wearable device.</em>
 </p>
 
-Concept 2 proposed a rigid bracelet-style activity tracker in which the enclosure and wearable structure were combined into a single continuous form. The design employed a USB-C charging interface and focused on simplicity, compactness, and ease of manufacture.
+Concept 2 proposed a rigid bracelet style activity tracker in which the enclosure and wearable structure were combined into a single continuous form. The design employed a USB-C charging interface and focused on simplicity, compactness, and ease of manufacture.
 
 **Advantages:**
 - Distinct and minimalist appearance.
@@ -306,7 +306,7 @@ Concept 2 proposed a rigid bracelet-style activity tracker in which the enclosur
 **Disadvantages:**
 - Reduced adjustability for different users.
 - Potential comfort limitations due to rigid geometry.
-- Charging-port interface introduces environmental-protection challenges.
+- Charging port interface introduces environmental protection challenges.
 - Less adaptable than flexible wearable alternatives.
 
 ### Concept 3: Versatile Clip-On / Pocketable Module
@@ -323,12 +323,12 @@ Concept 2 proposed a rigid bracelet-style activity tracker in which the enclosur
   <em>Concept 3 illustrating clip-on and wearable deployment options.</em>
 </p>
 
-Concept 3 adopted a modular approach centred around a compact self-contained electronics enclosure capable of supporting multiple deployment modes. The device could be clipped onto clothing, carried in a pocket, attached to a belt, or integrated into a wearable band when desired. The design prioritised user flexibility and adaptability.
+Concept 3 adopted a modular approach centred around a compact self contained electronics enclosure capable of supporting multiple deployment modes. The device could be clipped onto clothing, carried in a pocket, attached to a belt, or integrated into a wearable band when desired. The design prioritised user flexibility and adaptability.
 
 **Advantages:**
 - Multiple deployment configurations.
 - Increased placement flexibility.
-- Potential improvement in step-detection accuracy.
+- Potential improvement in step detection accuracy.
 - Adaptable to different user preferences and activities.
 - Compact and efficient electronics packaging.
 
@@ -467,7 +467,7 @@ Concept 3 achieved the highest weighted score during the concept-evaluation proc
 
 Although Concept 1 performed strongly in environmental protection and Concept 2 achieved favourable manufacturability and cost scores, Concept 3 consistently performed well across the majority of evaluation criteria and achieved the highest scores in functionality, user comfort, durability, and versatility.
 
-The concept provided the best overall balance between user adaptability, functional performance, manufacturability, environmental protection, and long-term usability while remaining aligned with the Product Design Specification (PDS) requirements.
+The concept provided the best overall balance between user adaptability, functional performance, manufacturability, environmental protection, and long term usability while remaining aligned with the Product Design Specification (PDS) requirements.
 
 As a result, Concept 3 was selected for further development and formed the basis for subsequent material-selection activities, CAD development, engineering analysis, and design validation.
 
@@ -489,7 +489,7 @@ The selection process followed four stages:
 
 ### Functional Decomposition
 
-The final design was decomposed into three categories based on primary mechanical function. This approach ensured that material selection was performed according to component-specific requirements rather than forcing a single material to satisfy all functional demands.
+The final design was decomposed into three categories based on primary mechanical function. This approach ensured that material selection was performed according to component specific requirements rather than forcing a single material to satisfy all functional demands.
 
 | Component Category | Primary Function |
 |:-------------------|:-----------------|
@@ -497,7 +497,7 @@ The final design was decomposed into three categories based on primary mechanica
 | Internal Seal | Environmental sealing |
 | Strap Links and Clasp | Load transfer and repeated articulation |
 
-This functional decomposition formed the basis of the subsequent Ashby-based material selection process.
+This functional decomposition formed the basis of the subsequent Ashby based material selection process.
 
 ### Translation
 
@@ -728,7 +728,7 @@ Advantages:
 Limitations:
 
 - Relatively low thermal resistance.
-- Reduced durability in elevated-temperature environments.
+- Reduced durability in elevated temperature environments.
 - Increased risk of deformation if exposed to heat during operation or storage.
 
 Assessment:
@@ -799,7 +799,7 @@ TPU offered significant advantages for wearable applications where comfort and f
 
 The weighted material evaluation identified PETG as the most suitable structural material for the enclosure components, while TPU was selected for flexible and sealing applications.
 
-The final design therefore adopted a hybrid-material strategy consisting of:
+The final design therefore adopted a hybrid material strategy consisting of:
 
 - PETG for structural enclosure components.
 - TPU for flexible wearable interfaces and sealing components.
@@ -856,7 +856,7 @@ A significant engineering trade-off existed between thermal performance and envi
 
 Improved airflow generally improves cooling effectiveness but can simultaneously increase the risk of moisture ingress.
 
-As a result, thermal-management features were designed to achieve a balance between:
+As a result, thermal management features were designed to achieve a balance between:
 
 - Heat dissipation.
 - Water resistance.
@@ -882,7 +882,7 @@ The effectiveness of the strategy was subsequently assessed through engineering 
 
 Environmental protection was a primary design requirement because wearable devices are routinely exposed to sweat, light rain, accidental splashes, dust, and general outdoor conditions.
 
-The water-resistance strategy therefore aimed to reduce the likelihood of moisture ingress while maintaining manufacturability, thermal performance, and user comfort.
+The water resistance strategy therefore aimed to reduce the likelihood of moisture ingress while maintaining manufacturability, thermal performance, and user comfort.
 
 ### Environmental Design Objective
 
@@ -911,7 +911,7 @@ These locations required careful consideration during enclosure development.
 
 ### FDM Manufacturing Considerations
 
-FDM-manufactured components introduce unique environmental-protection challenges.
+FDM-manufactured components introduce unique environmental protection challenges.
 
 Potential issues include:
 
@@ -920,11 +920,11 @@ Potential issues include:
 - Dimensional tolerances.
 - Incomplete sealing at interfaces.
 
-As a result, water resistance could not rely solely on material selection and required additional enclosure-design measures.
+As a result, water resistance could not rely solely on material selection and required additional enclosure design measures.
 
 ### Design Approach
 
-The environmental-protection strategy focused on reducing direct moisture exposure through:
+The environmental protection strategy focused on reducing direct moisture exposure through:
 
 - Controlled enclosure geometry.
 - Minimisation of unnecessary openings.
@@ -1050,7 +1050,7 @@ Considerations included:
 - Support-material requirements.
 - Minimum feature sizes.
 - Print tolerances.
-- Layer-based manufacturing limitations.
+- Layer based manufacturing limitations.
 
 Features that introduced unnecessary manufacturing complexity were avoided wherever possible.
 
@@ -1256,8 +1256,8 @@ The project successfully demonstrated the application of a structured engineerin
 - **Design Concept:** Development of a complete wearable device concept capable of meeting complex requirements.
 - **Requirements Specification:** Creation of a PDS that translated user needs into measurable engineering targets.
 - **Constraint Management:** Identification and successful management of competing requirements through iterative design.
-- **Manufacturing Readiness:** Development of an enclosure architecture specifically optimised for FDM additive manufacturing.
-- **Material Logic:** Evaluation of candidate materials using a structured selection methodology and weighted decision matrices.
+- **Manufacturable Design:** Development of an enclosure architecture specifically optimised for FDM additive manufacturing.
+- **Material Selection:** Evaluation of candidate materials using a structured selection methodology and weighted decision matrices.
 - **Integrated Analysis:** Completion of CAD and FEA models validated for both structural and thermal performance.
 
 ### Key Engineering Findings
@@ -1306,3 +1306,9 @@ The most important lesson from the project was that successful engineering desig
 ## Author
 
 **Munashe Mike Samvura**  
+
+Mechanical Engineering Student
+
+*Smart Wearable Activity Tracker*
+ 
+*End of Project Portfolio*
